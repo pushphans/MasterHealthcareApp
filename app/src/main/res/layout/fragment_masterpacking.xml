@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:fontFamily="@font/roboto_slab"
-                android:text="Alu"
+                android:text="Alu-Alu Base Foil"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="25sp"
@@ -205,6 +205,59 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/polyfoilDescription" />
 
+
+            <TextView
+                android:id="@+id/tvBlisterFoil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Blister Foil"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPolyFoil" />
+
+            <ImageView
+                android:id="@+id/ivBlisterFoil"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/blisterfoil"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvBlisterFoil" />
+
+            <TextView
+                android:id="@+id/blisterFoilDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivBlisterFoil" />
+
+            <View
+                android:id="@+id/viewBlisterFoil"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/blisterFoilDescription"/>
+
+
             <TextView
                 android:id="@+id/tvPetBottle"
                 android:layout_width="match_parent"
@@ -219,7 +272,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/viewPolyFoil" />
+                app:layout_constraintTop_toBottomOf="@id/viewBlisterFoil" />
 
 
             <ImageView
@@ -873,6 +926,59 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/shrinksDescription" />
+
+            <TextView
+                android:id="@+id/tvLdPolybags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="LD Poly Bags"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewShrinks"/>
+
+            <ImageView
+                android:id="@+id/ivLdPolybags"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ldpolybags"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvLdPolybags"/>
+
+            <TextView
+                android:id="@+id/ldPolybagsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivLdPolybags"/>
+
+            <View
+                android:id="@+id/viewLdPolybags"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ldPolybagsDescription" />
+
+
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
