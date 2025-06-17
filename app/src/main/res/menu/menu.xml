@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homePage"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/ourStory"
+        android:icon="@drawable/storyt"
+        android:title="Our Story"
+        app:showAsAction="withText" />
+
+    <item android:title="Our Business"
+        android:checkable="false"
+        android:icon="@drawable/business"/>
+    <item
+        android:id="@+id/masterhealthcare"
+        android:title="-> Master Healthcare" />
+
+    <item
+        android:id="@+id/masterlifecareproducts"
+        android:title="-> Master Lifecare Products" />
+
+    <item
+        android:id="@+id/masterpacking"
+        android:title="-> Master Packing" />
+
+    <item
+        android:id="@+id/masterbuildcon"
+        android:title="-> Master Buildcon" />
+
+    <item
+        android:id="@+id/nerimasterantibiotics"
+        android:title="-> Neri Master Antibiotics" />
+
+    <item
+        android:id="@+id/nerimasterpharma"
+        android:title="-> Neri Master Pharma" />
+
+    <item
+        android:id="@+id/masterservices"
+        android:title="-> Master Services" />
+
+    <item
+        android:id="@+id/manufacturing"
+        android:icon="@drawable/manufacturing"
+        android:title="Manufacturing"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/quality"
+        android:icon="@drawable/quality"
+        android:title="Quality"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/career"
+        android:icon="@drawable/career"
+        android:title="Career"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/media"
+        android:icon="@drawable/media"
+        android:title="Media"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/contactus"
+        android:icon="@drawable/contactus"
+        android:title="Contact Us"
+        app:showAsAction="withText" />
+
+</menu>

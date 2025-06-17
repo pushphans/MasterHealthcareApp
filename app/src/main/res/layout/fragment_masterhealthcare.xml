@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    tools:context=".fragments.MasterhealthcareFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/cardColor3"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_slab"
+            android:textColor="@color/white"
+            android:text="Master Health Care"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="We deal in :"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@color/black"
+        android:paddingStart="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Solvents"
+                android:textSize="25sp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView28" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Acetic acid\nAcetone\nAlpha Ethyl Acetate\nAniline\nBenzene\nBenzoic acid\nBenzyl Acetate,-Standard\nBENZYL ALCOHAL IP\nBenzyl Alcohol Ip\nBromobenzene\nCalcium Acetate Chemical\nCamphor\nCarbon disulfide\nCarbon tetrachloride\nChloroform\nCross crmalose Sodium (CCS)\nCrosspovidone XL10\nCrystal Carbolic Acid\nCyclohexane\nDiethyl ether\nEthanol\nEthyl Acetate\nEthyl Acetate Tpt\nEthylene bromide\nEthylene glycol\nFormic acid\nGlucose Luquid\nGlucose Powder\nGlycerine\nGlycerine Adani\nHpmc K 100\nHpmc-E 15\nHydrogenated Cas-r Oil\nIsopropyl Alcohol (IPA)\nIsopropyl Alcohol (IPA) Tpt.\nJoyce Butyl Acetate Monomer\nL- Lysine Mono Ip\nLactic Acid Bacillus 6000 Msg\nLactose 200 Mesh\nLactose Mono\nLactulose\nLactulose Solution\nLauric acid\nLight Liquid Paraffin (Llp)\nLight Magnisium Oxide\nLinsed Oil\nLINSEED OIL\nLiquid glucose\nLiquid ISO Butanol Technical\nLiquid Normal Butanol, 20 L\nLiquid Paraffin\nMagnesium Sterate\nMalto Dextrin Powder (MDP)\nMannitol Ip\nMccp Ip -101\nMccp Ip- 102\nMccp Ip- 112 Hicel 112\nMDC -(Methylene Dichloride)\nMENTHOL CRYSTAL\nMethanol\nMETHYL SALICILATE\nMethylene chloride (MDC)\nMetronidazole\nMetronidazole Benzoate\nMps\nN Proponol (N-Propyl Alcohol)\nNaphthalene\nN-Hexane For HPLC 95%\nNitrobenzene\nP.P.(Plain)\nP.P.S.Ip.\nPearlitol Sd 200\nPepsin\nPhenol\nPregelatinized Starch Ip\nProplyene Glycol (PG)\nPvp K-30\nSodium Benzoate\nSodium Saccharine I.P./Usp-\nSodium Starch Glycolate\nSorbic Acid\nSorbitol\nSorbitol Liquid\nStarch\nSucralfate\nSucralose\nSucrose\nTalcum Powder Ip\nTetra Hydro Furfuryl Alcohol\nToluene\nTween 80\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Sterile injectable"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AarchisOil(Inj)\nAcetazolamideSodSterile\nAcyclovirSodiumSterile\nAcylovir(InjectionGrade)\nAmoxicilin+ClavulanicAcid\nAmoxycillin+ClavulanateSodiumSterile\nAmoxycillinSodiumSterile\nAmpicillinSodiumSterile\nArtesunate(FreezDried)Sterile\nArtesunateSterile\nArtisunate80mg/Ml\nAscorbicAcidInjectableGrade\nBenzylAlcohol(Inj)\nBenzylPenicillinSodiumSterile\nCefoperazone(500mg)+Sulbactam(500mg)\nCefoperazoneSodiumSterile\nCefotaxine+Sulbactam(100mg+200mg)\nCeftazidime&amp;Tazobactam(1Gm)\nCeftazidime(250mg/Vial)\nCeftazidime250,500,100Ml\nCeftazidimeSodiumSterile\nCeftraxazoneSodiumSterileIp\nCeftriaxone1Gm/500Mg/250Ml\nCeftriaxone(1Gm)+Tazobactam125mg\nCeftriaxone+Sulbactam\nCeftrixone(1000Gm)+Sulbactam(500mg)\nCefuroximeSodium250mg/Vial\nChloramphenicolIp(InjectionGrade)\nCloxacillinSodiumSterile\nColstimethateSodiumI.P/B.P(Lyophilized)Sterile\nColstimethateSodiumI.P/B.P(Lyophilized)Sterile\nDiclofenacPottassiumInjectable\nDiclofenacSodium\nDiclofenacSodiumInjectable\nDicloxacillinSodiumSterile\nDoripenemSterile\nDoripenemforInjection\nErtapenemSterile\nErtapenemforInjection\nEsomeprazoleSodiumSterile\nEthylOleate(Inj)\nFaropenemSodiumSterile\nFlucloxacillinSodiumSterile\nHydrocortisoneSodSuccSterile\nHydrocortisoneSodiumSuccinate(Lyophilized)\nImepenem(250)+Cilastitin(250)\nImipenem+CilastatinSterile\nImipenem+CilastatinSterile\nLansoprazoleSodiumSterile\nMeropenem(1Gm)\nMeropenem(500mg/1Gm)\nMeropenemforInjection\nMeropenemSodiumSterile\nMethylprednisoloneSodiumSuccinate(Lyophilized)\nMezlocillinSodiumSterile\nNafcillinSodiumSterile\nNeomycin(InjectionGrade)\nOmeprazoleSodiumSterile\nOndasentron4mg/2ml\nPantoprazole40mgSodium\nPantoprazoleSodiumSterile\nPiperacilin+Tazobactam4.5Gm\nPiperacillinSodiumSterile\nPiperacillin&amp;TazobactamSodiumSterile\nPiperacillinSod+TazobactumSod\nRabeprazoleSodiumSterile\nRanitidine\nRanitidineWithOndasentron\nSulbactumSodiumSterile\nTazobactumSodiumSterile\nTobramycineSulphateUspSterile\nTramadol100ml/2ml\nTyrosinePwdForInjection\nVitaminBComplexIp(InjectionGrade)\nVitaminB12(InjectionGrade)\n"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Oil wax"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="AlmondOil\nAloeVeraGel\nAloeVeraOil\nAniseOilUSP\nApricotOil\nArachisOilBP/USP\nArganOil\nAvocadooi\nAvocadoOil\nBasilOilHoly\nBasilOilSweet\nBergamotOil\nBlackCuminOil\nCactusSeedOil\nCajeputOil\nCalendulaOil\nCamphorOil\nCanolaoil\nCapsicumOleoresinBP/USP\nCarawayOilBP\nCardamomOilBP\nCarrotSeedOil\nCashewoil\nCassiaOilBP\nCastorOil\nBeeswaxWhiteIp\nBeeswaxYellowRefinedBp\nBrij-35Wax\nBrij-98Wax\nCarnaubaWaxBp\nCarnaubaWaxPrimeYellow\nEmulsifyingWax\nEmulsifyingWaxAnionic\nEmulsifyingWaxAnionic?Powder/Slab\nEmulsifyingWaxNonIonic\nCedarwoodOil\nChamomileOil\nCinnamonoil\nCinnamonOilBP\nCitronellaOil\nClarySageOil\nCloveOilIP/BP/USP\nCoconutoil\nCoffeebeanOil\nCorianderOilBP/USP\nCucumberOil\nDementholisedMintOilBP\nDillOilBP\nEdiblealmondoil\nEucalytpusOilIP/BP\nFennelOilUSP\nFlaxseedoil\nGarlicOil\nGeraniumOil\nGrapefruitOil\nGrapeseedoil\nGroundnutoil\nHazelnutOil\nHempSeedOil\nHydrogenatedcastoroil(powder&amp;flakes)\nWaxes!!BeesWax!!EmulsifyingWax!!\nEmulsifyingWaxNonIonic?Powder/Slab\nHardParaffinWax\nHeavyLiquidParrafinIP(LLP)\nLightLiquidParrafinIP(LLP)\nMicrocrystallineWax(MccWax)Ip\nMontanGlycolWax\nOzokerite(OdoriFerousMineralWax\nOzokerite(OdoriFerousMineralWax)\nParaffinWaxWhite\nSabowaxElh40\nHydrogenatedCastorOilIP(Boricin)\nJojobaOil\nJuniperOilBP\nKalaunjiOil\nLemonOil\nLemonOilMc.1666\nLemongrassOil\nLinseedOil\nMandarinOil\nMarjoramOil\nMenthaArvensisOil\nMenthaCitrataOil\nMenthaOilIP\nMenthaPiperitaOil\nMenthaSpicataOil\nMoringaOil\nMuskmelonOil\nMustardoil\nMyrtleOil\nNeroliOil\nOliveoil\nOrangeoil(EssenceFly)\nPalmoil\nPapayaSeedOil\nPeanutOilIP/BP/USP\nSemiRefined(ParaffinWax)Ih\nWhitePetroleumJelly\nPeppermintoil(Essence)\nPeppermintOilIP/BP/USP\nPeppermintOil\nPineOil\nPomegranateOil\nPumpkinSeedOil\nRicebranoil\nRosehipOil\nRosemaryOilBP\nSesameoil\nSesameOil\nSoybeanoil\nSoybeanOilBP/USP\nSpearmintOilBP\nSunfloweroil\nSunflowerOilBP/USP\nTeaTreeOilBP\nThymeOilBP\nThymolBP\nTomatoSeedOil\nTurpentineOilBP\nVirginLinseedOilBp\nWalnutOil\nWheatgermOil\nYlangYlangOil\n"
+                android:paddingStart="10dp"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Pellets"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Aprepitant IR 40 w/w\nAspirin EC Pellets 60% (16#, 18#)\nAtorvastatin 10mg + Clopidogrel 75mg + Aspirin(Gr) Ready Mix Pallets\nAtorvastatin 20mg + Clopidogrel 75mg + Aspirin(Gr) Ready Mix Pallets\nAtorvastatin Pellets 10% (16#, 18#)\nAzithromycin IR 40% w/w\nCarbonyl Iron 100mg + Zinc Sulphate Monohydrate 61.8mg + Folic Acid 1mg +Vitamin B12 15 mcg + Vitamin C 150mg\nCarbonyl Iron 100mg + Folic Acid 1mg + Selenium 60mcg + Vitamin E Acetate 15IU + Vitamin B12 5mcg\nCarbonyl Iron 100mg + Zinc Sulphate Monohydrate 41.2mg + Folic Acid 1mg+ Vitamin C 150mg\nCarbonyl Iron 100mg + Zinc Sulphate Monohydrate 22.5mg + Folic Acid 1.5mg + Vitamin B12 15mcg\nCarbonyl Iron 100mg + Zinc Sulphate Monohydrate 61.8mg + Folic Acid 0.5mg\nCarbonyl Iron 50mg + Zinc Sulphate Monohydrate 41.2mg + Folic Acid 1.5mg + Pyridoxine HCl 3mg\nCarbonyl Iron 50mg + Zinc Sulphate Monohydrate 61.8mg + Folic Acid 0.5mg\nCarbonyl Iron 62mg+ Folic Acid 1mg + Selenium 60mcg + Vitamin E Acetate 15IU + Vitamin B12 5mcg\nCarbonyl Iron Blended Pellets In 3 Combination Iron As Carbonyi 50mg Zinc Sulphate 61.8mg Folic Acid\nCiprofloxacin IR 20-40 w/w\nClopidogrel Pellets 60% (16#, 18#)\nDivalproex SR 70 w/w\nDomperidone IR 10 11 w/w\nDomperidone pellets 10%\nDomperidone pellets 20%\nDomperidone pellets 30%\nDomperidone pellets 40%\nDomperidone SR 17%, 20%,30%, 40 w/w\nDoxycycline EC 25 w/w\nDried Ferrous Sulphate 150mg (SR) + Folic Acid 0.5mg\nDried Ferrous Sulphate 150mg (SR) + Zinc Sulphate Monohydrate 61.8mg + Folic Acid 0.5mg\nDutasteride IR 0.5% w/w\nEach hard gelatin capsule contains Eq. to Elemental Iron 100 mg Folic Acid 1.5 mg Vitamin B 12 15 mcg Zinc Sulphate Monohydrate 61.8 mg\nEsomeprazole 40mg (EC)and + Domperidone 30mg (S.R) Pellets\nEsomeprazole pellets 10%\nEsomeprazole pellets 17.5%\nEsomeprazole pellets 22%\nEsomeprazole pellets 22.5%\nEsomeprazole pellets 8.5%\nEsomeprazole pellets15.5%\nFerrous ascorbate 100mg + Folic acid 1.5mg\nFerrous ascorbate 50mg+ Folic acid 0.5mg\nFerrous Fumarate (SR) 185mg + Zinc Sulphate Monohydrate 41.2mg + Folic Acid 0.5mg\nFinasteride IR 6.5 w/w\nFluconazole IR 41.6 w/w\nGabapentin IR 75 w/w\nItopride pellets 50%\nItopride pellets 60%\nItopride pellets 75%\nLansoprazole 40 mg + Domperidone 30 mg SR\nLansoprazole pellets 10%\nLansoprazole pellets 8.5%\nLevosulpiride SR 40, 44, 65, 50 w/w\nItraconazole IR 22.7 w/w\nMebeverine SR 50-60, 80 w/w\nOmeprazole 20 mg + Domperidone 10 mg\nOmeprazole pellets 10%\nOmeprazole pellets 10.25 %\nOmeprazole pellets 15%\nOmeprazole pellets 7.5%\nOmeprazole pellets 8.5%\nOmeprazole20 mg+ Domperidone 30 mg SR\nOrlistat IR 25%, 40%\nPantoprazole 20 mg + Domperidone 10 mg\nPantoprazole 20 mg + Levosulpride 75 mg SR\nPantoprazole 40 mg + Domperidone 30 mg SR\nPantoprazole 40 mg + Itopride 150 mg SR\nPantoprazole pellets 20%\nPantoprazole pellets 22.5%\nPregabalin IR 54.5, 70 w/w\nPregabalin SR 60% w/w\nRabeprazole 20 mg + Domperidone 10 mg\nRabeprazole 20 mg + Levosulpride 75 mg SR\nRabeprazole 10 mg + Diclofenac sodium 50 mg SR\nRabeprazole 20 mg + Itopride 150 mg SR\nRabeprazole 20 mg + Diclofenac sodium 100 mg SR\nRabeprazole 20 mg+ Domperidone 30 mg SR\nRabeprazole pellets 10%\nRabeprazole pellets 11.2%\nRabeprazole pellets 20%\nRabeprazole pellets 8.5%\nRabeprazole(EC) 40mg + Domperidone(SR) 30mg Pallets\nRosuvastatin 10mg + Clopidogrel 75mg + Aspirin(Gr) Ready Mix Pallets\nRosuvastatin 20mg + Clopidogrel 75mg + Aspirin(Gr) Ready Mix Pallets\nRosuvastatin Pellets 30% (16#, 18#)\nRoxithromycin EC 54.5 w/w\nTamsulosin HCl SR 0.16%, 0.12%, 0.2%, 0.4% w/w\nTamsulosin SR 0.4 mg + Dutasteride 0.5 mg\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Industrial chemicals"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView9" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Acid Slurry\nActivated Alumina Balls\nActivated Carbon Beads\nAlum\nAlum Non Ferric\nAluminum Sulphate\nAntiscalent for Boiler\nAntiscalent for DM water in Boiler\nAntiscalent for RO\nB.G L.R. Grade\nBiocides for Swimming Pool\nBiodispresent For Cooling Tower\nBleaching Powder\nBleaching Powder\nBorax\nBoric Acid\nBoric Acid\nCalcium Hypochlorite\nCaustic Soda Flake's\nCaustic Soda Lye\nChlorine\nDescaling Chemicals for S.S Vesels\nFerric Chloride\nFerrous Sulphate\nGlycerine\nHydrated Lime\nHydrochloric Acid\nHydrochloric Acid\nHydrogen Peroxide\nInstant Descalent for Boiler\nLime\nMagnesium Sulphate\nMembrane Descalent for RO (Acid)\nMembrane Descalent for RO (Alkaline)\nMicrobiocides for R.O Plant\nMultipurpose Chemicals for high Pressure boilers\nNitric Acid\nNon Oxidising Biocides For Cooling Tower\nOxalic Acid\nOxidising Biocides For Cooling Tower\nOxygen Scavanger (Catalysed)\nPH Booster cum alkalinity Builder\nPH Controller for Cooling Tower\nPoly Aluminum Chloride\nPoly Aluminum Chloride ( PAC )\nPoly Electrolyte\nPrecipitated Silica Powder\nPrecleaning &amp; Passivative Chemicals for New Boiler\nSAP (Super Absorbent Polymer)\nScale &amp; Corrosion Inhibitor for closed cooling system\nScale Inhibitor cum Sludge Conditioner\nSilica Dispersant\nSilica Gel\nSilica Gel Blue\nSilica Gel Cat Litter\nSoda Ash\nSodium Bi Sulphite\nSodium Hexametaphospahte\nSodium Hexametaphosphate\nSodium Hypochlorite\nSodium Hypochlorite\nSodium Hypochlorite (disinfectant)\nSodium Meta BI Sulphite\nSodium Meta BI Sulphite Food Grade\nSodium Meta bisulphite\nStearic Acid\nSulphamic Acid\nSulphuric Acid Commercial\nSurface Disinfectant\nTCCA 90\nTrichloroethylene TCE\nUltramarine Blue\nWhite Silica Gel\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Capsules"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView11" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="E.Hg Gray/Brown Size 2\nE.Hg Gray/Brown Size3\nE.Hg Green/Green Size 00\nE.Hg Yellow/Yellow Size 2\nE.Hg Yellow/Yellow Size3\nE.Hg Blue/White Size0\nE.Hg Blue/White Size1\nE.Hg Blue/White Size2\nE.Hg Brw/Brw Size3\nE.Hg Brw/Brw Size 1\nE.Hg Brw/Brw Size 2\nE.Hg Brw/Brw Size0\nE.Hg Choclate/Choclate Size 1\nE.Hg Choclate/Choclate Size3\nE.Hg Choclate/Choclate Size 2\nE.Hg Choclate/Choclate Size0\nE.Hg E.Hg Tpt/ Tpt/ Size0\nE.Hg E.Hg Tpt/ Tpt/ Size 1\nE.Hg E.Hg Tpt/ Tpt/ Size 2\nE.Hg E.Hg Tpt/ Tpt/ Size3\nE.Hg Golden/Golden Size0\nE.Hg Gray/Brown Size 1\nE.Hg Gray/Brown Size0\nE.Hg Gree/Green Size0\nE.Hg Green/Ct Size 0\nE.Hg Green/Ct Size 1\nE.Hg Green/Ct Size 3\nE.Hg Green/Ct Size2\nE.Hg Green/Green Size 0\nE.Hg Green/Green Size 1\nE.Hg Green/Green Size 2\nE.Hg Green/Tpt/ Size 0\nE.Hg Green/Tpt/ Size 1\nE.Hg Green/Tpt/ Size 2\nE.Hg Green/White Size2\nE.Hg Green/Yellow Size0\nE.Hg Green/Yellow Size00\nE.Hg Green/Yellow Size1\nE.Hg Green/Yellow Size2\nE.Hg Green/Yellow Size3\nE.Hg Mr/Mr Size0\nE.Hg Mr/Mr Size1\nE.Hg Mr/Mr Size2\nE.Hg Pink/Ct Size0\nE.Hg Pink/Ct Size1\nE.Hg Pink/Ct Size2\nE.Hg Pink/Ct Size3\nE.Hg Red Opaque/CT Size 00\nE.Hg Red/Ct Size0\nE.Hg Red/Ct Size1\nE.Hg Red/Ct Size2\nE.Hg Red/Ct Size3\nE.Hg Red/White Size 1\nE.Hg Red/White Size 2\nE.Hg Red/White Size0\nE.Hg Red/White Size3\nE.Hg Scarlet/Scarlet Size 1\nE.Hg Scarlet/Scarlet Size 2\nE.Hg Scarlet/Scarlet Size0\nE.Hg Scarlet/Scarlet Size3\nE.Hg Silver/Silver Size0\nE.Hg Sky/Blue Size0\nE.Hg Sky/Blue Size1\nE.Hg Sky/Blue Size2\nE.Hg Sky/Blue Size3\nE.Hg Yellow/Yellow Size 1\nE.Hg Yellow/Yellow Size0\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Flavors"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Flv Almond No1\nFlv American Ice Cream Soda\nFlv Anise (Saunf) Liq\nFlv Apple Fl.S2279\nFlv Apricot Fls 174\nFlv Banana Dry Powder\nFlv Banana Liq\nFlv Banana No1\nFlv Beer Fl.S 2411m\nFlv Bitterness Modifier Fls 4100\nFlv Black Cuurrent C.36\nFlv Buiscuit Fl Mc 1709\nFlv Bush Cola A\nFlv Butter Fl90\nFlv Butter Flc2101\nFlv Butter Premia\nFlv Butter Scotch Fl90\nFlv Butterscotch Flc 9330\nFlv Capsicum No1\nFlv Cardamom Dry Powder\nFlv Cardamom Liq -\nFlv Cardamom Liq - 1919\nFlv Cardamom No1\nFlv Cardomom Flmc1919\nFlv Cashew Nut Fls 2495\nFlv Cheese Flc 7981\nFlv Cherry Dry Powder\nFlv Cherry Liq\nFlv Cherry No. 1\nFlv Cherry No1\nFlv Chocolate Bourbon Fls3738\nFlv Chocolate Dry Powder\nFlv Chocolate Fls1842\nFlv Chocolate Fls2761\nFlv Chocolate Liq\nFlv Coconut Fl90\nFlv Coconut No.1\nFlv Cognac Brandy Flc8969\nFlv Cola Fls3267\nFlv Creamy Vanilla Fls2266\nFlv Cummin Flsuper S.3839\nFlv Dlvon Butter Toffee Flc9007\nFlv Gin Cordial Flavor\nFlv Gin London Lb\nFlv Ginger A Lf\nFlv Green Apple Fls4292\nFlv Honey Fls 2405\nFlv Honey Flv. S2425\nFlv Kevra Fls 1427m\nFlv Kevra Fls 3346\nFlv Kewra FL.s 3346\nFlv Khas Essence 229\nFlv Kiwi Fls 4173\nFlv Kulfi Fls3525\nFlv Lemon Essence S662\nFlv Lemon Green C3440\nFlv Lemon No. 1\nFlv Lemon No1\nFlv Lemon Oil Mc 1666\nFlv Lime Juice And Soda C9445\nFlv Lime Juice And Soda S 224\nFlv Lime No. 1\nFlv Litchi Fls 4465\nFlv Litchi Fls3746\nFlv Mango Dry Powder\nFlv Mango Liq-90\nFlv Mango Alphanzo\nFlv Mango Fl90\nFlv Mango Fls 3099\nFlv Mango Fls 3206\nFlv Mango Fls 3907\nFlv Mango Fls3212\nFlv Mango Green C7389\nFlv Milk Fls 2165\nFlv Mix Fruit Fls 1038\nFlv Mix Fruit Fls 2535\nFlv Mixed Fruit Dry Powder\nFlv Mixed Fruit Liq\nFlv Mixed Fruit Premia\nFlv Oil Lemon Selm 111\nFlv Oil Orange Excellent\nFlv Oil Orange Flavor 8099\nFlv Orange Booster Fls 2937\nFlv Orange Crush No.1\nFlv Orange Essence Sweet\nFlv Orange Sweet Crush No1\nFlv Peach Fls 168\nFlv Peach No1\nFlv Peppermint Dry Powder\nFlv Peppermint Liq\nFlv Pepramint C 7531\nFlv Pinapple Fl Singapore\nFlv Pinapple Flavor 90\nFlv Pinapple No 1\nFlv Pinapple Premia\nFlv Pineapple Dry Powder\nFlv Pineapple Liq\nFlv Pistachio Olympia No1\nFlv Pistachiofls808\nFlv Raspberry Dry Powder\nFlv Raspberry Fls1211 (1ltr Pk)\nFlv Raspberry Fls838\nFlv Raspberry Liq\nFlv Raspberry No1\nFlv Rooh Gulab S.3660\nFlv Rose Flavor S 4025\nFlv Rose Green\nFlv Rose White - 8536 Liq\nFlv Rose White -4025 Liq\nFlv Rose White C 8536\nFlv Rum Jamaica Lb (1ltr Pk)\nFlv Saffron No 1\nFlv Salvo Preservative\nFlv Spearmint No 1\nFlv Strawberry Dry Powder\nFlv Strawberry Fls 3397\nFlv Strawberry Liq\nFlv Strawberry No1\nFlv Sweet Almond Fls 2209\nFlv Sweet Orange Dry Powder\nFlv Sweet Orange Liq\nFlv Sweet Orange No1\nFlv Trusil Mango SPL NR\nFlv Trusil Vanilla SPL\nFlv Tutty Fruity Fls 3661\nFlv Vanilla Excellent\nFlv Vanilla Fl 90\nFlv Vanilla No 1\nFlv Vanilla Premia\nFlv Vanillaessence No 1\nFlv Vodka Fls 2500\nFlv Whisky Flc 9552 ( 1ltr Pk)\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Colours"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="ALLURA RED SUPRA\nAMARANTH SUPRA\nAPPLE GREEN SUPRA\nBLACK PN SUPRA\nBLACK S SUPRA\nBRIGHT BLUE SUPRA\nBRIGHT GREEN SUPRA\nBRIGHT PINK SUPRA\nBRILLIANT BLUE FCF SUPRA\nCAMEL BROWN SUPRA\nCARAMEL BROWN SUPRA\nCARMOISINE SUPRA\nCHOCOLATE BROWN AJR SUPRA\nCHOCOLATE BROWN ANK SUPRA\nCHOCOLATE BROWN HT SUPRA\nCHOCOLATE BROWN TAS SUPRA\nEGG YELLOW SUPRA\nERYTHROSINE SUPRA\nGRAPE PURPLE / VIOLET SUPRA\nGREEN S SUPRA\nINDIGO CARMINE SUPRA\nKESARI SUPRA\nLAKE ALLURA RED\nLAKE AMARANTH\nLAKE APPLE GREEN\nLAKE BLACK S\nLAKE BRIGHT GREEN\nLAKE BRILLIANT BLUE\nLAKE CARMOISINE\nLAKE CHOCOLATE BROWN ANK\nLAKE CHOCOLATE BROWN HT\nLAKE ERYTHROSINE\nLAKE INDIGO CARMINE\nLAKE PATENT BLUE V\nLAKE PEA GREEN\nLAKE PONCEAU 4R\nLAKE QUINOLINE YELLOW\nLAKE RED 2G\nLAKE STRAWBERRY RED\nLAKE SUNSET YELLOW\nLAKE TARTRAZINE\nLAKE TOMATO RED E\nLAKE VIOLET\nLEMON YELLOW SUPRA\nLIME GREEN SUPRA\nORANGE RED SUPRA\nPATENT BLUE V SUPRA\nPEA GREEN SUPRA / MINT GREEN SUPRA\nPONCEAU 4R SUPRA\nQUINOLINE YELLOW SUPRA\nRASPBERRY RED SUPRA\nRED 2G SUPRA\nSEA BLUE SUPRA\nSTRAWBERRY RED SUPRA\nSUNSET YELLOW (C.S.) SUPRA\nSUNSET YELLOW FCF (DARK) SUPRA\nSUNSET YELLOW FCF SUPRA\nSWEET YELLOW SUPRA\nTARTRAZINE SUPRA\nTITANIUM DIOXIDE SUPRA\nTOMATO RED E SUPRA\nTOMATO RED SUPRA\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Vitamins"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView17" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Alpha-Tocopherol (Vitamin E)\nAscorbic Acid [Vitamin C Plain]\nAscorbic Acid [Vitamin C Coated]\nCalciferol [vitamin D]\nCalcium D Pantothenate\nD-Biotin\nNiacinamide Ip\nPantothenic Acid (vitamin B5)\nViamin A Acetate Powder Form\nViamin A Palmitate Luquid Form\nVitamin B6 (Pyridoxine)\nVitamin B1 Hydrochloride\nVitamin B1 Monohydrate\nVitamin B12 [Cynocobalamin]\nVitamin B2 (Riboflovin)\nVitamin B2 (Sodium Phosphate)\nVitamin C (Ascorbic Acid) Stablized\nVitamin D3 (10 gm/25 gm vial)\nVitamin D3 (Pure Form) vial\nVitamin D3 Stabilised 100 IU\nVitamin D3 Stabilized 500000 IU\nVitamin D3 Stabilised 400 IU\nVitamin E Luquid\nVitamin E Powder\nVitamin H\nVitamin K\nVitamin-K2 7\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView18" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Extracts"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="AcaiBerryExtract\nAcerolaExtract\nAcorusCalamusExtract\nAflapinExtract\nAlliumCefaExtract\nAmericanGinsengExtract\nAmygdalinExtract\nAppleCiderPowder\nArtemisaExtract\nAspalathusLinearisExtract\nAstercanthaLongifoliaExtract\nAvocadoSoybeanUnsaponifiables(ASU)Extract\nBetaSitosterolExtract\nBillBerryExtract\nBlackBerryExtract\nBlackCohoshExtract\nBlackWullNutHullExtract\nBlueberryExtract\nBoswelliaExtract\nBuckthornExtract\nBurdockRootExtract\nCamuCamuExtract\nCaraduusMarianusExtract\nCascaraSagradaBarkExtract\nCassiaFistulaExtract\nCat?sClawExtract\nCatuabaBarkExtract\nCelastrusPaniculatusExtract\nCeleryExtract\nCeratoniaSiliquaExtract\nClitoriaTerrateaExtract\nColostrumDryPowder\nComfreyExtract\nConvolvulusPluricaulisExtract\nCordycepsSinensisExtract\nCranberryExtract\nCrataegusSp.Extract\nCynaraScolymusExtract\nCynodonDatylon\nDamianaExtract\nDarkRedBeetRootColor\nDevil?sClawExtract\nDiosmin\nEchinaceaExtract\nEggPlantExtract\nElderBerryExtract\nEphedruExtract\nEquisetumArvenseExtract\nEvolvusAlsinoidesExtract\nEyebrightLeavesExtract\nFeverFewExtract\nFotiExtract\nGensingExtract\nGinkgoBilobaExtract\nGinsengExtract-5%\nGojiBerryExtract\nGoldenSealExtract\nGoldensealRootExtract\nGrapeLeafExtract\nGrapeSeedExtract\nGrapeSeed\nGraviolaExtract\nGreenAppleExtract\nGriffoniaSeedExtract\nHarpagophytumDryExtract\nHawthornBerryExtract\nHesperidin\nHoodiaExtract\nHornyGoatWeedExtract\nHorseChestnutExtract\nHorsetailExtract(EquisetumArvense)(AerialPowder)\nHypericumPerforatumExtract\nIrvengiaExtract\nIvyLeafDryExtract\nJapaneseKnotweedExtract\nKavaKavaExtract\nKelaExtract\nKelpExtract\nKhellinExtract\nKiwiExtract\nKoreanRedGinsengExtract\nL-Glutathione\nMacaRootExtract\nMacaRoot(4:1)\nMagnoliaBarkExtract\nMarshmallowExtract\nMelissaOfficinalis-LeavesExtract\nMilkthistleExtract(SilymarinSeedExtract)\nMotherwortExtract\nMuiraPuamaExtract\nMulberryLeafExtract\nOleaEuropeaExtract\nOliveLeafExtract\nOpuntiaFicusIndicaExtract\nPanaxGinsenExtract\nPeumusBoldus-LeavesExtract\nPhaleriaMacrocarpaFruitExtract\nPhytosterolsExtract\nPineBarkExtract\nPlantagoLanceolataExtract\nPlumExtract\nPolypodiumExtract\nPropolisExtract\nPruneExtract\nPrunusDomesticaExtract\nPuerariaMirificaExtract\nPygeumAfricanumExtract\nPygeumBarkExtract\nQuercetin\nRedRaspberryExtract\nRedWineExtract\nResveratrolExtract\nRhubarbRootExtract\nRicinusCommunisExtract\nRumicisExtract\nRutinfromFruitPeels\nSaccharumOfficinarumExtract\nSiberianGinsengExtract\nSilderitisAngustifoliaExtract\nSpergulariaRubraExtract\nTongkatAliExtract\nTongkatAliExtract2\nUncariaTomenttoseBarkExtract\nUrticaSp.Extract\nVacciniumMyrtillusExtract\nVitexagnusCastusExtract\nVitexagnus-ChestBerryExtract\nVitexExtract\nWhitchHazzelExtract\nWildRoseExtract\nWildYarnExtract\nWillowBarkExtract\nWormwoodLeafExtractPowder\nYavakshara-BarleyExtract(HordeumVulgarae)\nYeastExtract\nYohimbeExtract\nZanthoxylamExtract\nPiperrine\nWalnutPowder\nSt.JohnsWartExtracts\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView20" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Nutraceutical"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView21" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Whey Protein Isolate\nWhey Protein Concentrate\nHydro Whey Protein\nWeight Gainer/Mass Gainer\nCreatine Monohydrate\nCreatine Micronized\nCreatine Hcl\nCreatine Nitrate\nKre-Alkalyn\nGlutamine\nGlutamine Micronized\nGlutamine Peptides\nBcaa\nAmino Mass\nPre Workout\nPost Workout\nIntra Workout\nNitric Oxides\nArginine\nCgt\nGlucose\nEnergy Mass\nLeucine\nIsoleucine\nSoya Protein Isolate/Conc\nCasein Protein (Micellar)\nProtein Blend\nComplex Carbs\nMeal Replacement\nBeta-Alanine\nCarnitine\nTaurine\nTribulus\nL-Citrulline\nCitrulline Maleate\nAgmatine\nArginine Alpha Keto Glutarate\nSlimming Detox Tea\nWeight Loss Formula\nDetox Supplements\nMilk Protein Isolate/Conc.\nSpirulina\nAlbumen (Egg) Protein\nGreen Tea Extract\nValine\nLean Muscle Mass Gainer\nBody Grow\nMega Mass\nFat Burner\nAminoz\nBcaa\nPre Workout\nPost Workout\nIntra Workout\nNitric Oxides\nZma\nBeta Alanine\nL-Carnitine\nTestosterone Booster\nChromium Picolinate\nTribulus\nGinseng\nAshwagandha\nCla\nL-Arginine\nAgmatine\nBetaine Hcl\nCgt\nTaurine\nL-Carnosine\nL-Glutathione\nL-Citrulline\nYohimbine\nGlucosamine\nDetox Supplement\nSpirulina\nAm Pm Formula\nLiver Support\nCoenzyme-Q\nHeight Gainer\nCreatine\nL-Glutamine\nKre-Alkalyn\nMuscle Gainer\nWeight Gain\nMega Mass\nBody Grow\nJoint Support\nMultivitamin Support\nGarcinia Combogia Extract"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView22" />
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Pharmaceutical api"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView23" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Acebrophylline\nAceclofenac Ip\nAcesulfame Potassium Ip\nAcetamenophen Usp\nAcetazolamide Bp\nAceto Acetanilide\nAcetophenone\nAcitretin\nAcotiamide\nAcrylates / Palmeth 25 Acrylate Copolymer\nAcrylic Acid\nAcrypol-940\nAcrysol K-140-\nActivated Charcoal\nActivated Dimethicon Ip\nAcyclovir\nAdapalene Ip\nAdaplenebeta\nAdenosine Monophosphate\nAdenosylocobalamine\nAlbendazole IP/BP\nAlbendazole Micronized\nAlendronate Sodium\nAlfacalcidol\nAllantoin\nAllopurinol Ip\nAllylestrenol Ip\nAloevera Clear Extract Juice\nAlovera Juice\nAlpha Aml.Fungal Diastase Ip\nAlpha Amylase (1:2000)\nAlpha Beta Arteether\nAlpha Liopic Acid\nAlpha Liopic Acid Usp\nAlpha Naphthol\nAmbroxol HCL\nAmbroxol Hydrochloride Ip\nAmikacin Sulphate\nAmisulpride Ip\nAmitriptyline Hcl\nAmlodipine Besylate\nAmodiaquine Hcl\nAmoxycillin Plain Powder\nAmoxycillin Trih. Eq. To Amoxycllin\nAmoxycillin Trihydrate IP/BP\nAmoxycillin Trihydrate I.P. Micronize-\nAmphotericin\nAmpicilline Trihydrate (Comp.) I.P.\nAniline\nAnthraquinone\nAripiprazole\nArlacel 165\nArtemether (Inj Grade)\nArtemether IP\nArtesunate\nAscorbic Acid (Vitamin C Coated)\nAscorbic Acid Coated\nAscorbic Acid Injectable Grade\nAscorbic Acid Plain\nAspartame (AM Sweet)\nAspirin Granules Bp\nAtenlol Ip/Bp\nAtorovastatin Calcium\nAzithomycin Monohydrate\nAzithomycin Taste Mask Granules\nAzithromycin\nAzithromycin Dihydrate\nAzithromycin IP/BP/USP\nBaclofen\nBalofloxacin\nBcaa Instant\nBeclomethasone Di Propionate\nBenfotiamine Ih\nBeta Alanine\nBeta Carotene 10% Liq\nBeta Carotene 20%Dc\nBeta Carotene 30% Liq\nBeta Glucan (Yeast)\nBeta Naphthol\nBetacarotene 10% Powder\nBetacarotene 20% Powder\nBetacarotene 30% Oil\nBetacyclodextrin\nBetahistine Dihydrochloride Ip\nCalcium Pantothenate Ip\nCapsaicin Powder 95%\nCelecoxib\nCiprofloxacin HCL IP\nCoenzyme Q10\nEtoricoxib IP/BP/USP\nFungal Distaste(1:2000)\nGabapentin IP\nGliclazide Ip\nHairpol 940 (Carbomer 940 )\nHydrochlorothiazide IP\nLevofloxacin\nLumefantrine\nLutein 10% Powder\nMenthol Crystal\nMethylcobalamine\nMifepristone Ip\nNimesulide BP\nOmeprazole Sodium IP\nPantoprazole Sodium Ip\nParacetamol IP\nPregabalin IP\nRosuvastatin Calcium Ip\nSitagliptin Phosphate Monohydrate IP/BP\nSucralose IP/BP\nTadalafil USP\nThiamine HCL IP\nTween 80\nUrsodeoxycholic Acid IP/BP/USP\nVildagliptin"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView24" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Excipients"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Ac-Di-Sol-Croscarmellose Sodium\nAcetic Acid\nAcetone\nAcid Slurry 90%\nAcripol 940\nAcrosil\nAcrylamide\nAcrylic Acid\nAcrylonitrile (Acn)\nAcrypol 940\nAcryronitrile\nAcrysol El 135\nAcrysol K-150\nActivated Carbon\nActivated Carbon Bp\nActivated Carbon Ip\nActivated Carbon Usp\nAdapalene Bp\nAdipic Acid\nAerosil\nAerosil (Colloidal Silicon Dioxide Ip)\nAlgenic Acid Food/Ip/Bp/Usp (Indian\nAllantoin Ip Bp\nAllyl Alcohol\nAllyl Bromide\nAlmagate\nAlmagate Bp/Ep\nAlpha Napthol\nAlpha Napthyl Amine\nAlpha Tocopheryl Acetate\nAlpha Tocopheryl Acetate Conc (Powder Form) (Dry Vitamin E-Acetate) 50% Dc\nAlphaolefinsulphonateliquid\nAlphaolefinsulphonatepowder\nAlubra Pg - Sodium Stearyl Fumarate\nAlum\nAlum Ph. Eur.\nAlumina Trihydrate\nAluminium Ammonium Sulphate\nAluminium Ammonium Sulphate Usp\nAluminium Chloride\nAluminium Chloride Granules\nAluminium Chloride Hexahydrate Bp\nAluminium Chloride Hexahydrate Usp\nAluminium Chlorohydrate Ach\nAluminium Hyd Gel Ip (Paste /Powder)\nAluminium Hydroxide Paste\nAluminium Hydroxide Technical\nAluminium Oxide Alumina\nAluminium Potassium Sulphate Dodecahydrate Bp\nAluminium Potassium Sulphate Usp\nPAGE -2\nButyl Carbitol\nButyl Cellosolve\nButyl Cellosove Acetate 98%\nButyl Glycol\nButylated Hydroxy Anisol Ip\nButylated Hydroxyanisole\nButylated Hydroxytoluene Ip\nButylated Uf\nButyric Acid N Iso\nC\nCadmium Nitrate Tetrahydrate Acs\nCalamine\nCalamine Bp\nCalamine Ip\nCalamine Usp\nCalcined China Clay\nCalcite Powder\nCalcium Acetate Bp\nCalcium Acetate Dried Bp Dialysis\nCalcium Acetate Dried Bp Hemodialysis\nCalcium Acetate Dried Usp Dialysis\nCalcium Acetate Dried Usp Hemodialysis\nCalcium Acetate Ph. Eur.\nCalcium Acetate Usp\nCalcium Ascorbate Food/Bp/Usp\nCalcium Aspartame\nCalcium Bromide\nCalcium Carbonate\nCalcium Carbonate (Oyster Shell)\nCalcium Carbonate (Oyster Shell) Ip\nCalcium Carbonate Bp\nCalcium Carbonate Ip 85\nCalcium Carbonate Ip 96\nCalcium Carbonate Ip/ Bp/ Usp\nCalcium Carbonate Light Ip\nCalcium Carbonate Ph. Eur.\nCalcium Carbonate Ppt\nCalcium Carbonate Technical Grade\nCalcium Carbonate Usp\nCalcium Chloride\nCalcium Chloride Dihydrate Bp\nCalcium Chloride Dihydrate Bp Dialysis\nCalcium Chloride Dihydrate Bp-05\nCalcium Chloride Dihydrate Ip\nCalcium Chloride Dihydrate Ph. Eur.\nCalcium Chloride Dihydrate Usp\nCalcium Chloride Dihydrate Usp Hemodialysis\nCalcium Chloride Hydrated Ip\nCalcium Citrate\nCalcium Citrate Ip\nPAGE - 3\nChromium Chloride Usp\nChromium Picolinate\nChromium Picolinate / Polynicotinate\nChromium Picolonate\nChromium Polynicotinate\nCinnamon Oil\nCitric Acid\nCitric Acid Anhydrous\nCitric Acid Anhydrous Bp\nCitric Acid Anhydrous Bp Dialysis\nCitric Acid Anhydrous Bp Injectable\nCitric Acid Anhydrous Ip\nCitric Acid Anhydrous Ip\nCitric Acid Anhydrous Lp/Bp/Usp/Food\nCitric Acid Anhydrous Ph. Eur.\nCitric Acid Anhydrous Usp\nCitric Acid Anhydrous Usp Dialysis\nCitric Acid Anhydrous Usp Injectable\nCitric Acid Mono\nCitric Acid Mono/Anhydrous Ip\nCitric Acid Monohydrate\nCitric Acid Monohydrate Bp\nCitric Acid Monohydrate Bp Dialysis\nCitric Acid Monohydrate Bp Injectable\nCitric Acid Monohydrate Ip\nCitric Acid Monohydrate Usp\nCitric Acid Monohydrate Usp Dialysis\nCitric Acid Monohydrate Usp Injectable\nCitricacid\nC-Ix\nClindamycin Phosphate Ip\nClinidipine Ih Ip\nCm-100 [Cetomacragol 1000 Bp]\nCMC Sodium\nCMMH3-(Carbamoyl Methyl)-5-Methyl Hexanoic Acid]\nCoal Tar (Prepared)\nCobalt Octoate\nCoco Amido Propyl Betaine (Capb)\nCoco Amido Propyl Betaine Ih\nCoco Betaine\nCoco Butter\nCoco Diethanol Amide\nCoco Diethanolamide (Coco Di)\nCoco Mono Ethanol Amide\nCoco Monoethanolamide ( Coco Mono)\nCoco Powder\nCocoa Powder\nCocoa Powder Jb Malaysia/Jindal\nCocoamindepropylbetaine\nCocodiethanolamide\nPAGE -4\nDiphenylacetonitrile\nDirect Chrysophenine G\nDirect Paper Yellow\nDisodium Edta Ip\nDisodium Etda\nDisodium Hydrogen Cirtate Bp\nDisodium Hydrogen Citrate Lp/Bp/Usp/Food\nDisodium Hydrogen Orthophosphate\nDisodium Hydrogen Phosphate\nDisodium Hydrogen Phosphate Dodecahydrate\nDisodium Phosphate\nDiswash Compound\nDi-Tab - Dicalcium Phosphate Dihydrate, Granular\nDivalproex Sodium\nDl Tartaric Acid\nDl Tartric Acid\nDl-Methionine Bp\nDl-Methionine Bp/Ph Eur\nDl-Methionine Ip\nD-Mannose\nD-Mannose, Low Endotoxin\nDmdm Hydantoin\nDocusate Sodium 85% Powder\nDolomite Powder\nDoshion Ds544\nDoshion-P 544\nDoshion-P 544\nDoshiyon 514\nD-Panthenol\nDpanthenol Ip\nDried Aluminium Hydroxide Gel\nDried Aluminium Hydroxide Gel Bp/Usp/Ip\nDried Aluminium Hydroxide Gelbp/Usp/Ip/Ep\nDried Aluminium Hydroxide Paste\nDried Disodium Hydrogen Ortho Phosphate Usp\nDried Ferrous Sulphate (Pure/Food/Feed)\nDried Ferrous Sulphate Ip/Bp/Usp\nDried Sodium Phosphate\nDry Vit D3 Ty 100 Cws\nDryflow Ts\nD-Sorbitol\nDss - Docusate Sodium (100%)\nDss 50% - Docusate Sodium (50%) In Peg 400\nDss Granular - Docusate Sodium (85%) With Sodium Benzoate\nDummy Pellets\nDuralac H - Anhydrous, Dc Lactose\nDye Fixing Agent\nE\nE.D.T.A. Di Sodium (Fcc)\nEastman Biosustane Saib - Sucrose Acetate Isobutyrate\nPAGE - 5\nGms (Glycerol Monostearate )\nGms-Se\nGoat Milk\nGranulac / Sorbolac - Lactose Monohydrate, Milled\nGreen Tea Extract\nGum Acacia / Guar (Food/Pharma\nGum Rosin\nH\nHalobetasol Propionate Usp\nHandwash Compound\nHbr In Acetic Acid 33%\nHcl - Hydrochloric Acid 30% / 31%\nHeavy Liquid Paraffin (Hlp) Bp/Ep/Usp\nHeavy Liquid Paraffin Ip\nHeavy Magnesium Oxide\nHeparin Sodium Ip\nHeptane\nHexafluorophosphoric Acid\nHexamethyl Disilazane (HMDS)\nHexamine\nHh 64%\nHigh Density Polythene (Hdpe)\nHi-Sweet - High Fructose Corn Syrup\nHme Cleaner Plus - Cleaning Agent For Hot Melt Extrusion\nHPCLh21\nHpmc E-15\nHpmc E-5\nHpmc E-6 cps\nHpmc K-100\nHpmc K100 M\nHpmc K4m\nHPMC Phthalate\nHpmc-6CPS\nHpmc-E-15\nHpmc-K4-M\nHpmcp - Hypromellose Phthalate\nHppromellose Pthalate\nHumic Acid Liquid\nHumic Amino Balls\nHydrated Lime Powder\nHydrazine Hydrate\nHydrazine Hydrate 80%\nHydrobromic Acid\nHydrobromic Acid 48% &amp; 62% Min\nHydrofluoric Acid\nHydrofluroic Acid (22%, 30%, 40%, 60%)\nHydrogen Peroxide\nHydrogen Peroxide\nHydrogenated Castor Oil (Flakes)\nHydrogenated Castor Oil (Powder)\nPAGE -6\nMagnese Sulphate Monohydrate Bp/Ph Eur\nMagnesium Acetate Tetrahydrate Bp\nMagnesium Acetate Tetrahydrate Bp Dialysis\nMagnesium Acetate Tetrahydrate Ph. Eur.\nMagnesium Alluminium Sillicate Hydrate\nMagnesium Aluminium Silicate All Grade\nMagnesium Carbonate\nMagnesium Carbonate Heavy\nMagnesium Carbonate Heavy Usp\nMagnesium Carbonate Ip(Light / Heavy\nMagnesium Carbonate Light\nMagnesium Carbonate Light Bp\nMagnesium Carbonate Light Ip\nMagnesium Carbonate Light Ph. Eur.\nMagnesium Carbonate Light Usp\nMagnesium Carbonate Light/Heavy BP/Usp/Ip/Ep/Technical\nMagnesium Chloride\nMagnesium Chloride Bp\nMagnesium Chloride Hexahydrate Bp Dialysis\nMagnesium Chloride Hexahydrate Bp Hemodialysis\nMagnesium Chloride Hexahydrate Bp Injectable\nMagnesium Chloride Hexahydrate Ph. Eur.\nMagnesium Chloride Ip\nMagnesium Chloride Ip Dialysis\nMagnesium Chloride Usp\nMagnesium Chloride Usp Hemodialysis\nMagnesium Choliride Ip/Bp/Usp\nMagnesium Citrate\nMagnesium Citrate\nMagnesium Fluoride\nMagnesium Gluconate\nMagnesium Glycerophosphate\nMagnesium Glycinate\nMagnesium Hydroxide\nMagnesium Hydroxide\nMagnesium Hydroxide Ip,Bp, Usp\nMagnesium Hydroxide Gel Ip\nMagnesium Hydroxide Ip\nMagnesium Hydroxide Ip\nMagnesium Hydroxide Ip(Paste/Powder)\nMagnesium Hydroxide Paste\nMagnesium Hydroxide Plain\nMagnesium Hypophosphite\nMagnesium L-Threonine\nMagnesium Metal Turnings\nMagnesium Nitrate Hexahydrate\nMagnesium Oxide\nMagnesium Oxide (Light / Heavy) Ip\nMagnesium Oxide Ip/Bp/Usp/Ep/ Technical\nMagnesium Oxide Light Ip\nPAGE - 7\nMould Release Emulsion\nMP (Plain)\nMp Diol Glycol\nMps\nMPS  IP/BP\nN\nN Amino Ethyl Piperazine\nN- Butanol\nN Methyl 2 Pyrrolidone\nN Propanol\nN Proponol (N-Propyl Alcohol)\nNaphthlene Crude\nNapthlene Refined\nNatural Colours - Colour Powders, Liquid Colours, Colour &amp; Cloud Emulsions, Colouring Concentrates\nNatural Flavours - Flavour Fractions And Isolates, Water Phases/Essences, 100% Natural Fruit Derived Flavours (Ftnf),\nN-Bromosuccinimide\nN-Butanol\nN-Butyl Bromide\nN-Butyl Chloride 99%\nN-Butyl Methacrylate (Nbma)\nNeem Oil\nNeo Pentyl Glycol\nNeomalt\nNeomalt A-200x\nNeomycin Sulphate Ip\nNeomycin Sulphate Ip\nNeopentyl Glycol (Npg)\nNeosorb - Sorbitol\nNeosorb Liquid - Sorbitol Solution\nNeosorb Pf / Biopharma - Sorbitol, Low Endotoxin\nNeotame\nN-Heptane\nN-Hexane\nNiacinamide\nNiacinamide  Ip\nNickel Acetate\nNickel Carbamate\nNickel Chloride\nNickel Formate\nNickel Salts\nNickel Sulphate\nNiclosamide Anhydrous Ip Bp\nNimodipine Bp Usp\nNisin (E-234) And Natamycin (E-235)\nNitric Acid 62%\nN-Methyl 2 Pyrolidone Nmp\nN-Methyl Piperazine\nN-Octyl Bromide\nNon Ionic (Emulsifer )\nNon Ionic (Emulsifer)\nPAGE -8\nPotassium Chloride Usp Hemodialysis\nPotassium Chloride, Refined\nPotassium Chromate\nPotassium Citrate\nPotassium Citrate\nPotassium Citrate Ip\nPotassium Citrate Ip/Bp/Usp/Food\nPotassium Citrate Ph. Eur.\nPotassium Citrate Tribasic Bp\nPotassium Citrate Tribasic Ip\nPotassium Citrate Tribasic Usp\nPotassium Cyanide\nPotassium Di Hydrogen Phosphate Bp\nPotassium Dichromate\nPotassium Dihydrogen Phosphate Bp Injectable\nPotassium Dihydrogen Phosphate Nf\nPotassium Fluoborate\nPotassium Humate 12% Solution\nPotassium Hydrogen Carbonate Bp\nPotassium Hydrogen Carbonate Usp\nPotassium Hydroxide Flakes\nPotassium Hydroxide Flakes Bp\nPotassium Hydroxide Flakes Nf\nPotassium Hydroxide Ih (Pallets)\nPotassium Hydroxide Ih Pellets\nPotassium Hydroxide Pallets\nPotassium Hydroxide Pellets Bp\nPotassium Hydroxide Pellets Bp Hemodialysis\nPotassium Hydroxide Pellets Nf\nPotassium Iodate\nPotassium Iodate Bp\nPotassium Iodide\nPotassium Iodide Bp\nPotassium Iodide Ip\nPotassium Iodide Ph. Eur.\nPotassium Iodide Usp\nPotassium Metabisulphite Nf\nPotassium Nitrate\nPotassium Nitrate Bp\nPotassium Nitrate Usp\nPotassium Permagnate\nPotassium Permanganate Bp\nPotassium Permanganate Finne\nPotassium Permanganate Granular\nPotassium Permanganate Ip\nPotassium Permanganate Usp\nPotassium Phosphate\nPotassium Phosphate Dibasic Bp\nPotassium Phosphate Dibasic Ph. Eur.\nPotassium Phosphate Dibasic Usp\nPAGE -9\nSoda Ash Light\nSoda Bi Carb (Tech/Refind)\nSoda Karb\nSoda Lime Nf\nSodaash\nSodabicarb\nSodim Methyl Paraben\nSodium Acetate Anhydrous\nSodium Acetate Anhydrous Usp\nSodium Acetate Crystal &amp; Anhydrous\nSodium Acetate Hydrous &amp; Anhydrous\nSodium Acetate Trihydrate Bp\nSodium Acetate Trihydrate Bp Dialysis\nSodium Acetate Trihydrate Ip\nSodium Acetate Trihydrate Ip Dialysis\nSodium Acetate Trihydrate Usp\nSodium Acetate Trihydrate Usp Hemodialysis\nSodium Acid Phosphate\nSodium Acid Pyrophosphate\nSodium Alginate\nSodium Alginate Food/Ip/Bp/Usp (Indian\nSodium Aluminate\nSodium Aluminate Silicate\nSodium Ascorbate Food/Pharma\nSodium Ascorbate Ip\nSodium Benzoate\nSodium Benzoate (E-211) Fcc Viii/Bp\nSodium Benzoate 10% &amp; 15% By Product\nSodium Benzoate Bp\nSodium Benzoate Ip\nSodium Benzoate Nf\nSodium Bi Sulphite\nSodium Bicarbonate\nSodium Bichromate\nSodium Biosulphate\nSodium Bisulphite\nSodium Borate\nSodium Boro Hydride - Granular\nSodium Boro Hydride - Powder\nSodium Bromate\nSodium Bromate\nSodium Bromide\nSodium Bromide\nSodium Bromide Solution 50%\nSodium Carbonate Anhydrous Bp\nSodium Carbonate Anhydrous Nf\nSodium Carbonate Monohydrate Bp\nSodium Carbonate Monohydrate Nf\nSodium Carbonate Monohydrate Nf/Fcc\nSodium Carbonate  Anhydrous Bp  \nPAGE-10\nSodium Sulphate Anhydrous Bp\nSodium Sulphate Anhydrous Bp Injectabel\nSodium Sulphate Anhydrous Usp\nSodium Sulphide Flakes\nSodium Sulphide Flakes\nSodium Sulphite\nSodium Sulphite Anhydrous\nSodium Sulphite Anhydrous Bp\nSodium Tellurate\nSodium Tellurite\nSodium Thio Sulphate\nSodium Thio Sulphate\nSodium Thiosulphate\nSodium Thiosulphate Anhydrous\nSodium Thiosulphate Pentahydrate Bp\nSodium Thiosulphate Pentahydrate Ip\nSodium\nAluminium Silicate Synthetic\nAluminium Stearate\nAluminium Stearate Highgel\nAluminium Stearate Ip/Bp/Usp\nAluminium Sulphate Alum\nAluminium Sulphate Bp\nAluminium Sulphate Ip\nAluminium Sulphate Ph. Eur.\nAluminium Sulphate Usp\nAluminum Hydroxide\nAlveosucre - Agglomerated Sucrose\nAminacrine\nAmino Acid 20% Solution\nAmino Silicone\nAmiodarone Hcl Ip\nAmiodipine Besilate\nAmiodipine Maleate\nAmmino Guanidine Bi Carbonate\nAmmonium Benzoate\nAmmonium Bi-Carbonate\nAmmonium Bicarbonate Bp\nAmmonium Bicaronate Lr\nAmmonium Bromide\nAmmonium Carbonate Nf\nAmmonium Chloride\nAmmonium Chloride 99% Pure\nAmmonium Chloride Bp\nAmmonium Chloride IP\nAmmonium Chloride Ip Bp Usp\nAmmonium Chloride Ph. Eur.\nAmmonium Chloride Usp\nAmmonium Citrate\nAmmonium Dichromate\nAmmonium Ferric Citrate Usp\nAmmonium Ferrous Sulphate\nAmmonium Hydrogen Carbonate Ph. Eur.\nAmmonium Molybdate\nAmmonium Molybdate Usp - 27\nAmmonium Sulphate\nAmmonium Sulphate 99% Pure\nAmmonium Sulphate Lr Ar Tech\nAmmonium Sulphate Nf-25\nAmmonium Sulphate Powder / Crystal\nAmmonium Zirconium Carbonate\nAmmoniumchloride\nAmonia Bi Carb\nAmonia Bio Carbonate\nAniline Oil\nAntarox F 127 Nf - Poloxamer 407\nAnti-Oxidants - Sodium Bisulfite, Sodium Metabisulfite, Ascorbic Acid, Others\nCalcium Citrate Malate\nCalcium Citrate Malate Ihs\nCalcium Citrate Maleate\nCalcium Citrate Maleate Ip\nCalcium Citrate Usp\nCalcium Citrateip\nCalcium Cmc Usp\nCalcium D Panthonate\nCalcium D Pantothenate Ip\nCalcium Dobesilate\nCalcium Phosphate Tri-Basic(Cattle Feed Grade)\nCalcium Potassium 4 Hydrate\nCalcium Propionate\nCalcium Starate Ip\nCalcium Stearate\nCalcium Stearate Bp/Ph Eur\nCalcium Stearate  Ip/Bp/Usp\nCalcium Sulphae Dihydrate Bp\nCalcium Sulphate Anhydrous\nCalcium Sulphate Anhydrous Nf\nCalcium Sulphate Dihydrate\nCalcium Sulphate Dihydrate Bp\nCalcium Sulphate Dihydrate Nf\nCalcium Sulphate Dihydrate Ph. Eur.\nCalcium Sulphate Dried Bp\nCalcium Sulphate X Hydrate\nCalciumhypochlorite\nCalcium D-Saccharate Usp\nCalcium Formate Pure\nCalcium Gluconate\nCalcium Gluconate Ip\nCalcium Gluconolactobionate\nCalcium Glycerophosphate\nCalcium Hydroxide\nCalcium Hydroxide Bp\nCalcium Hydroxide Bp/Usp/Ep\nCalcium Hydroxide Ip\nCalcium Hydroxide Ph. Eur.\nCalcium Hydroxide Usp\nCalcium Hypophosphite Bpc\nCalcium Iodate\nCalcium Iodide\nCalcium Lactate Gluconate\nCalcium Magnesium Acetate\nCalcium Magnesium Nitrate\nCalcium Nitrate\nCalcium Nitrate 4 Hydrate\nCalcium Nitrate Tetrahydrate\nCalcium Oxide Usp\nCalcium Panthonate\nCoconut Di Ethanol Amide Ih\nCoenzyme Q10\nColecalciferol Conc\nColloidal Silicon Dioxide Ip\nColour Brilliant Blu\nColour Erythrosine Supra Ih\nColour Np Pink\nCombilac - Compound Of Lactose, Mcc &amp; Maize Starch\nCompactcel - Co-Processed Excipients For Tabletting\nCompressuc - Directly Compressible Sucrose\nConc (Powder Form) Bp Ph Eur\nConcentrated Oils, Extracts\nCopper (Ii) Sulphate Anhydrous Bp\nCopper Edta\nCopper Sulphate\nCopper Sulphate\nCopper Sulphate Lr Ar Technical Agriculture\nCopper Sulphate Panthadhydrate\nCopper Sulphate Pentahydrate Bp\nCopper Sulphate Usp\nCottonseed Oil\nCreshmer Rh 40\nCresmer Rh 40\nCresmer Rh-40-\nCroscarmellose Sodium (Ac-Di-Sol) Ip\nCrospovidone\nCrospovidone (Polyplasdone) Nf\nCrospovidone (Xl-10)\nCrospovidone Xl-10\nCrospovidone Xl10 Usp\nCross Carmallose Sodium Usp\nCross Povidone Xl10 Usp\nCrosscarmellose Sodium\nCrosscarmelose Sodium Usp (Acdisol)\nCrude Naphthalene\nCrystal Violet Ip 85\nCuporus Chloride\nCupric Chloride\nCupric Oxide Anhydrous\nCupric Sulphate Dried Bp\nCupric Sulphate Pentahydrate Fcc\nCupric Sulphate Pentahydrate Ph. Eur.\nCuprous Bromide\nCyano Acetic Acid\nCyanocobalamin Ip (Vitamin B12) 1% Gelatin Coated\nCyclohexane\nCyclohexanol\nCyclohexanone\nCyclohexyalamine\nCyclonone\nEdetic Acid Nf\nEdta\nEdta Acid Ph. Eur.\nEdta Disodium Bp\nEdta Disodium Ip\nEdta Disodium Ph. Eur.\nEdta Disodium Usp\nEdta Sodium Ip\nEgms\nEmollient\nEmollients - Mineral Oil, Glycerin, Others\nEmulsifying Wax\nEmulsifying Wax Anionic\nEmulsifying Wax Ip\nEmulsifying Wax Non Ionic\nEpichloro Hydrine\nEpichlorohydrin\nEpichlorohydrine\nEpoxy Resin\nEquivalent To Choline\nErythritol\nETDA\nEthanol\nEthly Glycol Monostearate\nEthyl Acetate\nEthyl Acetate\nEthyl Aceto Acetate\nEthyl Acrylate\nEthyl Acrylate Monomer\nEthyl Bromide\nEthyl Carbitol\nEthyl Cellosolve\nEthyl Cellulose 10 Cps Bp/Ph\nEthyl Cellulose Ip\nEthyl Cellulose-10 Cps Nf\nEthyl Chloro Formate\nEthyl Cyano Acetate\nEthylene Di Amine\nEthylene Di Chloride\nEthylene Diamine\nEthylene Dibromide\nEthylene Glycol Mono Stearate Ih\nEthylene Vinyl Acetate (Eva)\nEthylhexyl Olivate (Sensolene)\nEur\nEusolex T-2000\nE-Wax\nFatty Alcohol &amp; Ethoxylates\nFef Benzalkonium Chloride\nFef Benzalkonium Chloride Solution\nHydrogenated Castor Oil Ip (Boricin)\nHydroquinone\nHydroxy Ethylcellulose\nHydroxy Propyl Methlyl Cellulose(Hpmc E-15) Ip\nHydroxy Propyl Methyl Cellulose (6 Cps) Ip\nHydroxylamine Hcl\nHydroxylamine Sulphate\nHydroxyzine\nHyflow Super Cell\nHyflow Supercell\nI\nIbuprofen\nIcing Sugar With Starch - Confectioner's Sugar, Milled\nImidazol\nImidazole\nImidazolidinyl Urea Usp\nImidurea\nImpact Modifier For Pvc/Cpe\nInhalac - Lactose For Inhalation\nInositol Fcc V\nInositol Nf-12\nIodine Ip\nIpa\nIpa Deepak Fertilizer IP\nIpa Deepak Fertilizer BP\nIpa Technical Grade\nIpm\nIron &amp; Ammonium Citrate\nIron / Tri Choline Citrate\nIron Choline Citrate\nIron Dextran\nIron Ore\nIron Polymaltose\nIron Stearate\nIron Sucrose\nIso Butanol\nIso Butyl Bromide\nIso Propyl Alcohol\nIso Propyl Myristate (Ipm)\nIso Propyl Palmitate (Ipp)\nIsoamyl Bromide\nIsoboroneolflakes\nIsobutanol\nIsobutyl Chloride\nIsophorone\nIsophthalic Acid\nIsopropyl Alcohol (Ipa)\nIsopropyl Alcohol Ip\nIsopropyl Bromide\nIsopropyl Myristate Ip\nMagnesium Oxide Light Usp\nMagnesium Phosphate\nMagnesium Phosphate Usp\nMagnesium Silicate Usp/Food\nMagnesium Silicate Usp/Food Grade/Technical\nMagnesium Stearate\nMagnesium Stearate Ip\nMagnesium Stearate Ip, Bp\nMagnesium Stearate Ip/Bp/Usp\nMagnesium Sterate Ip\nMagnesium Sulphate\nMagnesium Sulphate 7h2o Bp\nMagnesium Sulphate 7h2o Ip\nMagnesium Sulphate 7h2o Usp\nMagnesium Sulphate Dried Bp\nMagnesium Sulphate Dried Usp Injectable\nMagnesium Sulphate Heptahydrate\nMagnesium Sulphate Heptahydrate Ph. Eur.\nMagnesium Sulphate Ip/Bp/Usp\nMagnesium Sulphate Mono Ip/Bp/Usp\nMagnesium Sulphate Usp Injectable\nMagnesium Trisilicate\nMagnesium Trisilicate BP/Usp/Ip/Ep\nMagnesium Trisilicate Ip\nMagnesium Trisilicate Ip,Bp, Usp\nMagnesium Valproate\nMaize / Wheat / Potato Starch - Native Starches\nMaize Starch Ip\nMaize Starch Powder\nMalamine Powder\nMaleic Acid Bp\nMaleic Anhydride\nMaliec Anhydride\nMalononitrile\nMalto Dextrine\nMalto Dextrine Powder\nMaltose, Low Endotoxin\nManganese Carbonate\nManganese Chloride\nManganese Chloride Tetrahydrate Usp\nManganese Dioxide\nManganese Sulphate Monohydrate\nManganese Sulphate Monohydrate Bp\nManganese Sulphate Monohydrate Bp/Ph Eur\nManganese Sulphate Monohydrate Usp\nManganous Chloride\nMangese Gluconate\nMangesium Chloride\nMannitol IP\nMannitol - Pearlitol\nNonyl Phelosls\nNonyl Phenol\nNonyl Phenol Ethoxylate\nNormal Butanol Nba\nN-Pentyl Bromide\nN-Propyl Bromide\nNutra Tab - Compound Of Tricalcium Phosphate &amp; Guar Gum\nNutrapolish - Organic Certified Coatings For Nutraceuticals\nNutriose - Soluble Fibre\nO\nO M C\nOctanol\nOleum 23% &amp; 65%\nOlive Oil\nOpadry Amboy-B-29000\nOpaglos 6000p\nOrganics Bromo Compounds\nOrtho Anisidine\nOrtho Chlorobenzoic Acid\nOrtho Dichloro Benzene\nOt Paste And Liquid\nOxalic Acid\nPalm Kernal Oil\nP-Aninomethyl Benzoic Acid\nP-Anisidine\nPapain\nPapaya Leaves Powder\nPara Anisidine\nPara Bromo Phenol\nPara Dichloro Benzene\nPara Formal Dehyde(91%,96%)\nPara Formal Dehyde(91%,96%)\nPara Formaldehyde\nPara Toluene Sulfonyl Acid\nPara Toluene Sulfonyl Chloride\nPara Toluene Sulphonic Acid Ptsa\nParabens Ip\nParaffin Wax\nParafin Wax\nParaformal Dehyde\nParaformaldehyde 92% &amp; 96%\nPc-10 - Partly Pregelatinised Corn Starch\nPe Wax\nPe-05jps - Polyvinyl Alcohol\nPearlitol - Mannitol\nPearlitol Flash - Compound Of Mannitol &amp; Maize Starch\nPearlitol Pf / Biopharma - Mannitol, Low Endotoxin\nPearlitol Sd 200\nPeg 1500 Technical/Bp/Usp\nPeg 200 Technical/Bp/Usp\nPotassium Phosphate Monobasic Bp\nPotassium Pyroantimonate Ppa\nPotassium Silicate Powder &amp; Liquid\nPotassium Sodium Tartrate Tetrahydrate Ph. Eur.\nPotassium Sodium Tartrate Usp\nPotassium Sorbate\nPotassium Sorbate : Fcc Ix/E 202\nPotassium Sulphate\nPotassium Sulphate\nPotassium Sulphate Bp\nPotassium Tellurate\nPotassium Tellurite\nPotassium Titanium Fluoride\nPotassium Zirconium Carbonate\nPotassiumpermanganate\nPottasium Bi Carbonate\nPottasium Citrate Ip\nPottasium Permagnate\nPottasium Carbonate ( Granular)\nPottasium Carbonate ( Powder )\nPovidone (Pvpk-30) Ip\nPovidone Iodine Ip\nPovidone Iodine Ip\nPovidone K -30 Bp / Usp / Ih\nPowder Mat\nPp Plain (Propyl Paraben)\nPP(Plain)\nPPS Ip\nPPSIp\nPrecipitated Silica\nPrecipitated Silica\nPregelatinized Starch Ip\nPreservatives - Parabens, Sodium Acetate, Sodium Benzoate, Propylene Glycol, Others\nPrismalac / Capsulac / Sachelac / Spherolac - Lactose Monohydrate, Sieved\nPropioneldehyde\nPropionic Acid\nPropionic Anhydride\nProplyene Glycol (Pg)\nPropranolol Hydrochloride Ip Bp Usp\nPropyl Gallate\nPropyl Paraben Ip\nPropyl Paraben Plain (PP Plain)\nPropyl Paraben Sodium\nPropyl Paraben Sodium (Pps)\nPropylene Glycol\nPropylene Glycol Ip\nPropylene Glycol Technical\nPropylene Glycol Usp\nPropylene Glygol\nPropylparaben Ip\nSodium Carbonate Ip\nSodium Carboxymethyl Cellulose\nSodium Chloride\nSodium Chloride (Oral/Injectable) Ip\nSodium Chloride Bp\nSodium Chloride Bp Dialysis\nSodium Chloride Bp Hemodialysis\nSodium Chloride Bp Injectable\nSodium Chloride Byproduct 93%\nSodium Chloride Ip\nSodium Chloride Ip Bp Usp\nSodium Chloride Ip Dialysis\nSodium Chloride Ip Injectable\nSodium Chloride Ip/Bp/Usp\nSodium Chloride Ip/Bp/Usp/Food\nSodium Chloride Usp\nSodium Chloride Usp Dialysis\nSodium Chloride Usp Hemodialysis\nSodium Chloride Usp Injectable\nSodium Chlorite\nSodium Chromate\nSodium Citrate\nSodium Citrate\nSodium Citrate (Tri Basic) Ip/Bp/Usp/Food\nSodium Citrate Dibasic\nSodium Citrate Dibasic Bp\nSodium Citrate Dihydrate Bp\nSodium Citrate Ip\nSodium Citrate Tribasic Ip\nSodium Citrate Tribasic Usp\nSodium Cmc Ip\nSodium Cyanate\nSodium Cyanide\nSodium Cynaide\nSodium Diacetate\nSodium Dichromate\nSodium Dichromate\nSodium Dihydrogen Orthophosphate\nSodium Dihydrogen Phosphate Dihydrate Bp\nSodium Dihydrogen Phosphate Dihydrate Ip\nSodium Dihydrogen Phosphate Dihydrate Usp\nSodium Dihydrogen Phosphate Monohydrate Bp\nSodium Dihydrogen Phosphate Monohydrate Usp\nSodium Dimethyl Dithio\nSodium Feridetate\nSodium Feridetate Bp-\nSodium Fluoride Ip\nSodium Fluoride Tech\nSodium Formate\nSodium Formate\nStarch Technical Grade\nStarlac - Compound Of Maize Starch &amp; Lactose Monohydrate\nStearic Acid\nStearic Acid Ip\nStearicacid\nStearyl Alcohol\nSturcal - Precipitated Calcium Carbonate, Heavy\nStyrene Monomer\nSuccinic Acid\nSuccinyl Choline Chloride\nSucralfate\nSucralfate Ip\nSucralose\nSucralose Ip\nSucrose\nSucrose (Iron)\nSucrose Ip\nSucrose, Low Endotoxin\nSugar Invert\nSugar Simple\nSulphamic Acid\nSulphonated Malamine Formadelyde\nSulphur Dioxide\nSulphuric Acid 98% / 70%\nSuperflow Abc (Ammonium Bicarbonate)\nSurfactants\nSurfactants - Polysorbate 20, Polysorbate 80\nSweetener\nSweetpearl - Maltitol\nSwelstar Pd-1 - Pregelatinised Potato Starch\nSynthalen - K\nSynthalen- Kp\nSynthetic Iron Oxide Red\nT\nTablettose - Agglomerated, Dc Lactose\nTackidex - Dextrin\nTalcum Powder\nTalcum Powder (Purified) Ip\nTalcum Powder Ip\nTalcum Technical Grade\nTapioca Starch\nTartric Acid (L + )\nTartric Acid Dl\nTea Tree Oil\nTEA(Triethanolamine )\nTechnical Grade Urea\nTellurium Dioxide\nTerbutaline Sulphate Ip\nTereos\nTertiary Butanol (TBA)\nZinc Oxide\nZinc Oxide - White Seal/Feed Grade/Rubber Grade\nZinc Oxide Bp\nZinc Oxide Ip\nZinc Oxide Powder\nZinc Oxide Usp\nZinc Phosphate\nZinc Picolnate\nZinc Picolnate\nZinc Pyrithione\nZinc Stearate\nZinc Stearate Ip/Bp/Usp\nZinc Sulphate (Hepa)\nZinc Sulphate (Mono)\nZinc Sulphate 21%\nZinc Sulphate Bp\nZinc Sulphate Heptahydrate\nZinc Sulphate Heptahydrate (Ip /Pure )\nZinc Sulphate Heptahydrate Ip Usp\nZinc Sulphate Heptahydrate Iron Free\nZinc Sulphate Heptahydrate Usp\nZinc Sulphate Ip\nZinc Sulphate Monohydrate\nZinc Sulphate Monohydrate (Usp / Pure )\nZinc Sulphate Monohydrate Usp\nZirconium Acetate\nZirconium Basic Carbonate\nZirconium Flour/Sand\nZirconium Hydrate/Hydroxide\nZirconium Nitrate\nZirconium Oxychloride\nZirconium Salts\nZirconium Sulphate\nAquapolish - Film Coating Systems (Functional And Non-Functional)\nAquateric N100-Ready-To-Use Alginate Based Enteric Coating System\nArlcel 165\nAsbestos Powder\nAscorbic Acid\nAscorbicacid\nAspartame\nAspartame\nA-Tab-Dicalcium Phosphate Anhydrous, Granular\nA-Tab Md - Compound Of Dicalcium Phosphate, Anhydrous &amp; Maltodextrin\nAvicel Ce - Compound Of Microcrystalline Cellulose &amp; Guar Gum\nAvicel Dg - Compound Of Microcrystalline Cellulose &amp; Anhydrous Dcp\nAvicel Hfe-Compound Of Microcrystalline Cellulose &amp; Mannitol\nAvicel Ph - Microcrystalline Cellulose\nAvicel Rc / Cl - Microcrystalline Cellulose &amp; Cmc Sodium\nAvicel Smcc - Silicified Microcrystalline Cellulose\nB\nBacitracin Zinc Ip\nBanzoic Acid\nBarium Carbonate\nBarium Carbonate\nBarium Sulphate Bp\nBarium Sulphate Usp\nBarytes Powder\nBasic Chromium Sulphate\nBees Wax White\nBelsil Ec2\nBentonite\nBentonite Powder\nBenzaldehyde 99.5%\nBenzene\nBenzene Sulphonyl Chloride\nBenzoic Acid\nBenzoic Acid\nBenzoic Acid Bp\nBenzoic Acid Ip\nBenzoic Acid Ph. Eur.\nBenzoic Acid Usp - 27\nBenzophenone 3\nBenzyl Acetate\nBenzyl Alcohol Bp\nBenzyl Alcohol Ethoxylate\nBenzyl Alcohol Ip\nBenzyl Bromide\nBenzyl Chloride 99.5%\nBenzyl Cyanide\nBenzyl Cyanide\nBenzylamine\nBenzylidone Acetone 99.5%\nCalcium Pantothenate Ip\nCalcium Pentoxide\nCalcium Peroxide\nCalcium Phosphate Dibasic Anhydrous Bp\nCalcium Phosphate Dibasic Anhydrous Ip\nCalcium Phosphate Dibasic Anhydrous Ph. Eur.\nCalcium Phosphate Dibasic Anhydrous Usp\nCalcium Phosphate Dibasic Dihydrate Ip\nCalcium Phosphate Dibasic Dihydrate Ph.Eur\nCalcium Phosphate Dibasic Dihydrate Usp\nCalcium Phosphate Di-Basic Ip\nCalcium Phosphate Di-Basic(Anh) Ip\nCalcium Phosphate Mono Basic\nCalcium Phosphate Tri-Basic Ip\nCalcium Phosphate Tribasic Nf\nCalipharm A - Dicalcium Phosphate Anhydrous, Powder\nCalipharm D - Dicalcium Phosphate Dihydrate, Powder\nCalipharm T - Tricalcium Phosphate Anhydrous, Powder\nCalopake - Precipitated Calcium Carbonate, Extra-Light\nCamphor Bp\nCamphor Sulphonic Acid\nCandida Utilis\nCanning Oile\nCapb\nCaproic Anhydride\nCaprylyl Methicone\nCar Polish Wax\nCaramel Ip\nCaramel Ip\nCarbamate 40% Solution\nCarbapol Ultraz 10\nCarbapol Ultraz 20\nCarbomer BP(Acrypol934)\nCarbomer BP(Acrypol940)\nCarbomer BP(Acrypol980)\nCarbon Black\nCarbon Tetra Chloride\nCarbonyl Iron Powder\nCarbopol 940\nCarbopol -940\nCarica Papaya Leaf Extract\nCaster Sugar - Screened Sucrose\nCastor Oil\nCatalyst\nCaustic Lye\nCaustic Potash\nCaustic Potash\nCaustic Potash Flakes\nCaustic Soda Flakes\nCaustic Soda Flakes\nCyclopropylamine\nCystine Bp/Ph Eur\nD\nD Panthenol\nD- Tartaric Acid\nD.M. Water\nDaa\nDbnpa\nDbp\nDbp, Dop, Dom\nDc 1501\nDc 193\nDc 200\nDc 245\nDc El 7040\nDcda\nDcp Ip\nDcp Technical Grade\nDecanoyl Chloride\nDedusting Oil - Textile\nDefoamers\nDeta 98%\nDetergent Paste\nDextrin Starch\nDextrine White\nDextrine Yellow\nDextrose Anhydrous Bp\nDextrose Anhydrous Bp Injectable\nDextrose Anhydrous Bp/Usp\nDextrose Anhydrous C - Dextrose Anhydrous, Crystalline\nDextrose Anhydrous Ip\nDextrose Anhydrous Ip Injectable\nDextrose Anhydrous Usp\nDextrose Ip\nDextrose Mono Hydrate\nDextrose Mono/ Anhydrus\nDextrose Monohydrate Gc - Dextrose Monohydrate, Agglomerated\nDextrose Monohydrate Ip\nDextrose Monohydrate Ph. Eur.\nDextrose Monohydrate Usp\nDft/Wetting Agents\nD-Galactose, Low Endotoxin\nDha Non Veg\nDha Veg\nDi Acetone\nDi Calcium Phosphate Animal Feed Grade\nDi Calcium Phosphate Dentifrice/Toothpaste Grade\nDi Calcium Phosphate Food Grade(U.S.F.C.C)\nDi Calcium Phosphate Ip/Bp/Usp/Ep Anhydrous Grade\nDi Calcium Phosphate Ip/Bp/Usp/Ep Di-Hydrate Grade\nFef Cetrimide\nFef Cetyl Trimethyl Ammonium Bromide (Ctab)\nFerric &amp; Non Ferric Alum\nFerric Ammonium Citrate (Br/Gr) Ip\nFerric Ammonium Citrate Ip\nFerric Ammonium Citrate Ip/Bp/Usp\nFerric Chloride Anhydrous Powder\nFerric Chloride Hexahydrate Lumps\nFerric Chloride Liquid Lr Ar Technical\nFerric Chloride Lumps Lr Ar Technical\nFerric Oxide Black Usp/Nf\nFerric Oxide Brown Usp/Nf\nFerric Oxide Red Usp/Nf\nFerric Oxide Yellow Usp/Nf\nFerric Sulphate Usp\nFerrours Fumerate\nFerrous Ascorbate Dc Grade\nFerrous Ascorbate Dc Grade 60:40\nFerrous Ascorbate Food/Pharma\nFerrous Ascorbate Liquid\nFerrous Edta\nFerrous Fumarate\nFerrous Fumarate Ip\nFerrous Fumarate Ip/Bp/Usp\nFerrous Fumerate\nFerrous Gluconate Ip\nFerrous Glucontate\nFerrous Glycine Sulfate\nFerrous Sulphate\nFerrous Sulphate (Heptahydrate) Ip\nFerrous Sulphate 7 Hydrate\nFerrous Sulphate Dried Bp\nFerrous Sulphate Dried Ip\nFerrous Sulphate Dried Ph. Eur.\nFerrous Sulphate Dried Usp\nFerrous Sulphate Heptahydrate Bp\nFerrous Sulphate Heptahydrate Usp\nFerrous Sulphate Ip\nFerrous Sulphate Ip( Powder &amp; Crystals)\nFgzd\nFilm Coat\nFish Oil\nFlowlac - Spray-Dried, Dc Lactose\nFluoboric Acid\nFluticasone Propionate\nFolic Acid Ip\nIsupolish - Sugar And Sugar-Free Coatings\nItaconic Acid\nK\nKaolin\nKaolin Light Ip (Calamine)\nKaolin, China Clay Ip/Bp/Usp\nKaopolite - Kaolin\nKelcogel Cg - Gellan Gum\nKhadi\nKleptose - Betacyclodextrin\nKleptose Hp / Hpb / Biopharma - Hydroxypropyl Betacyclodextrin, Low Endotoxin\nKleptose Linecaps - Pea Maltodextrin\nKms\nKojic Acid Dipalmitate Ih\nKyron- T 114\nKyron- T 314\nKyron T-114 (Resin)\nKyron T-314\nL Carnitine / L Tartrate\nL- Lysine Mono Ip\nL+ Tartaric Acid\nLactic Acid\nLactic Acid Bacillus 6000 Msg\nLactic Acid Ip\nLactobacillus Sporogenses 6 Bs\nLactose 200 Mesh\nLactose Ip\nLactose Monohydrate Low Endotoxin - Lactose For Injectables\nLactulose Concentrate(70%)\nLactulose Solution\nLanolin Anhydrous\nL-Arginine, Low Endotoxin\nL-Carnitine Usp\nLee\nL-Glutamic Acid Bp\nL-Histidine Hydrochloride Monohydrate, Low Endotoxin\nL-Histidine, Low Endotoxin\nL-Hpc - Low Substituted Hydroxypropyl Cellulose\nLidocain Base Usp Bp\nLidocaine Hcl Ip Bp Usp\nLight Liquid Paraffin (Llp)\nLight Kaolin Ip\nLight Liquid Paraffin\nLight Liquid Paraffin (Llp) Bp/Ep/Usp\nLight Magnesium Carbonate\nLight Magnesium Oxide\nLight Magnesium Oxide Ip\nLight Magnisium Oxide\nLight Solvent Oil\nMannitol (Mannitol 25) Ip\nMannitol Dc Grade\nManthol\nMcc Ip/Bp/Usp(Ph-101/102 &amp; Other)\nMccp Ip -101\nMccp Ip- 102\nMccp Ip- 102 Bulk Dried\nMccp Ip- 102 Dc Grade\nMccp Ip- 102 Spray Dried\nMccp Ip- 112 Hicel 112\nMccp Ip- 112 Hicel 90\nMccp Plain\nMccp Plain Ip\nMDC\nMdc -(Methylene Dichloride)\nMecobalamine\nMegaldrate\nMeglumine (N-Methyl-D-Glucamine)\nMelamine\nMelamine Formaledhyde\nMenthol\nMenthol Crystal Ip\nMenthol Ip\nMeta Nitro Aniline\nMetacrylic Acid Maa\nMetha Acrylic Acid\nMethacrylic Acid (Maa)\nMethane Sulphonic Acid\nMethane Sulphonyl Chloride\nMethanol\nMethyl Aceto Acetate\nMethyl Acetoacetate\nMethyl Acrylate\nMethyl Chloro Formate\nMethyl Cobalamine B12\nMethyl Cyano Acetate\nMethyl Ethyl Ketone\nMethyl Ethyl Ketone Peroxide\nMethyl Glycol\nMethyl Iodide\nMethyl Iso Butyl Ketone\nMethyl Meta Acrylate\nMethyl Methacrylate\nMethyl Methacrylate (Mma)\nMethyl Paraben Plain\nMethyl Paraben Plain (Mpp)\nMethyl Paraben Sodium\nMethyl Paraben Sodium (Mps)\nMethyl Salicylate Ip\nMethyl Salicylate IP\nPeg 300 Technical\nPeg 3350\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView26"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:paddingStart="10dp"
+                android:text="Peg 3350 Technical/Bp/Usp (Powder &amp; Flakes)\nPeg 400\nPeg 400 Technical/Bp/Usp\nPeg 4000\nPeg 4000 Technical/Bp/Usp (Powder &amp; Flakes)\nPeg 600 Technical\nPeg 6000\nPeg 6000 Technical/Bp/Usp (Powder &amp; Flakes)\nPeg-400 Ip\nPeg-4000 Ip\nPeg-6000\nPentaerythritol 98%\nPentahydrate Bp/Ph Eur\nPepsin\nPepsin 1:10000 Fcc\nPepsin 1:3000 Fcc\nPeraformaldehyde 91-92%\nPerchloroethylene\nPetrolium Jelly\nPg (Propleyne Glycol)\nPg Manali (Propleyne Glycol)/ Adani\nPg Plain Technical Grade\nPg Starch\nPg-4000\nPg-6000\nPharmacoat - Hypromellose (Hpmc), Low Viscosity\nPharm-A-Spheres - Sugar Spheres\nPhenol\nPhenonip\nPhenoxy Ethanol\nPhenoxy Ethanol Ip\nPhosphoric Acid\nPhosphoric Acid\nPhosphoric Acid (Food Grade)\nPhosphoric Acid 60% &amp; 85%\nPhosphoric Acid Food Grade\nPhosphoric Acid Technical\nPhosphoricacid\nPhosphorus Tribromide\nPhosporic Acid\nPhosporic Acid 85%\nPhthalic Acid\nPhthalic Anhydride\nPhytomenadione (Vitamin K1)\nPiperazine Anhydrous\nPlazma Torch Coolant\nPoly Allyamine Hcl\nPoly Aluiminium Chloride Powder 29%\nProsolv Odt Powder\nProtacid - Alginic Acid\nProtanal / Manucol / Kelcoloid - Alginate\nProtein Hydroslate 20% Liq\nProtein Hydroslate 20%, 60 %\nProtein Hydrosylate\nProtein Hydrosylate (Soya)\nProtein Hydrosylate(Caseine)\nProtein Powder Concentrate\nProtein Powders Whey\nProtein Soya Isolate\nProtein Whey 80%\nProtein Whey Isolate\nPthalic Anhydride\nP-Toluene Sulfonyl Urea\nPts Amide\nPts Chloride\nPurified Talc\nPurified Talc Ip\nPva Bp24 / Bp 26 /Bp 28 - Poly Vinyl Alcohol)\nPvp K-30 IP/BP/USP\nPVP K90 Ep/Bp/Usp-\nPvpk 90\nPyridine  - 2 Degree\nPyridoxine Hydrochloride (Vitamin B6) Ip\nPyrolodine\nQ\nQunine Dihydrochloride\nR\nRCMMH [(R)-(-)-3-(Carbamoyl Methyl)-5-Methyl Hexanoic Acid]\nReadilycoat - Ready-To-Use Starch Based Coating System\nReady Mix Coating Material\nRed Beet Root Juice Powder\nRed Oxide Powder\nReduced L-Glutathione\nRefined Naphthalene\nRefined Naphthalyne Powder\nRefinedglycerine\nResin-P514\nResin-P544c\nResist Salt\nResorcinol\nReta M - Compound Of Mannitol &amp; Hpmc\nRetalac - Compound Of Lactose &amp; Hpmc\nRiboflavin (Vitamin B2) Ip\nRoquette Magnesium Stearate - Magnesium Stearate\nRutile Sand\nSodium Hexa Met Phosphate\nSodium Hexameta Phosphate\nSodium Hexametaphosphate\nSodium Hydro Sulphite\nSodium Hydrogen Carbonate Bp\nSodium Hydrogen Carbonate Ip\nSodium Hydrogen Carbonate Usp\nSodium Hydrogen Carbonate Usp Hemodialysis\nSodium Hydrogen Carbonate Usp Injectable\nSodium Hydrosulphate\nSodium Hydrosulphide\nSodium Hydrosulphite\nSodium Hydroxide\nSodium Hydroxide Caustic Soda\nSodium Hydroxide Ip (Pallets)\nSodium Hydroxide Nf\nSodium Hydroxide Pellets\nSodium Hydroxide Pellets Bp\nSodium Hydroxide Pellets Ip\nSodium Lauryl Eather Sulphate (Sles Liquid)\nSodium Lauryl Ether Sulphate (Sles) 28%\nSodium Lauryl Ether Sulphate (Sles) 70%\nSodium Lauryl Ether Sulphate Ih\nSodium Lauryl Sarcosinate (Galsoftnals)I\nSodium Lauryl Sulfatate (Powder)\nSodium Lauryl Sulfate (Powder) - Ip\nSodium Lauryl Sulphate\nSodium Lauryl Sulphate (Sls) Needle\nSodium Lauryl Sulphate (Sls) Powder\nSodium Lauryl Sulphate Ip / Bp\nSodium Lauryl Sulphate Liquid Ih\nSodium Meta Bi Sulphite\nSodium Meta Bi Sulphite Ip\nSodium Meta Silicate\nSodium Meta Silicate\nSodium Metabi Sulphite\nSodium Metabi Sulphite-\nSodium Metabisulphite\nSodium Metabisulphite Bp\nSodium Metabisulphite Bp\nSodium Metabisulphite Ip\nSodium Metabisulphite Nf\nSodium Metal\nSodium Metasilicate\nSodium Metasilicate 5h20\nSodium Metasilicate 9h20\nSodium Methoxide\nSodium Methoxide Solution 25% &amp; 30% Solution\nSodium Methyl Paraben\nSodium Methylparaben Ip\nTertiary Butyl Acetate\nTertiary Butylamine\nTest Product\nTetra Hydro Furan\nTetra Hydrofuran\nTetra Sodium Pyrophosphate\nTetrabutylammonium Bromide\nTetrabutylammonium Hydrogen Sulfate\nTetrabutylammonium Hydrogen Sulphate\nThickening Silica (Zeodent 165) Ih\nThio Urea\nThiophenol\nThiourea\nThymol\nTiglic Acid\nTiles Cleaner\nTinogard Tt\nTinosorb S\nTitanium Dioxide\nTitanium Dioxide Ip\nTitanium Dioxide Usp\nTitanium Dioxide, Fcc Ix/E- 171/Food Grade\nTitaniumdioxide\nToilet Cleaner Concentrate\nToluene\nToluene\nToluene Di Iso Cyanite\nTonicity Modifiers - Magnesium Chloride, Magnesium Sulfate, Others\nTopmill - Colouring Agents (Regular / Pearlescent)\nTramadol\nTranslucent\nTrehalose P - Trehalose Dihydrate\nTrehalose, Low Endotoxin\nTretinoin Usp\nTri Ammonium Citrate\nTri Calcium Phosphate Anhydrous Lp/Bp/Usp\nTri Calcium Phosphate Eps/Suspension/Microfine/\nTri Chloro Ethylene\nTri Cholin Citrate Ip\nTri Ethy Ortho Formate\nTri Ethyl Amine\nTri Ethyl Citrate Ip\nTri Ethylene Pentamine\nTri Methyl Ortho Formate\nTri Methylol Propane\nTri Sodium Monohydrate\nTri Sodium Phosphate\nTri Sodium Phosphate\nTri Sodium Phosphate Dodecahydrate Grade Lp/Bp/Usp/Fcc\nTri-Calcium Phosphate Bp\nZeolite White - Animal Poultry Detergent\nZinc Acetate Bp\nZinc Acetate Dijydrate Ip\nZinc Acetate Usp\nZinc Borate\nZinc Bromide\nZinc Carbonate\nZinc Carbonate Usp\nZinc Chloride\nZinc Chloride Bp\nZinc Chloride Ip\nZinc Chloride Usp\nZinc Citrate\nZinc Dust\nZinc Edta\nZinc Gluconate\nZinc Methionine Aspartate\nBenzylkoniumcholoride\nBeta Carotene (Carofit 10% Cws)\nBeta Carotene (Powder Grade 10% ) Conc)\nBeta Carotene (Powder Grade 20% ) Conc)\nBeta Napthol\nBezoyl Alcohol\nBezoyl Nicotinate\nBezoyl Peroxide\nBHA\nBHT\nBilberry Extract\nBinders &amp; Polysol\nBiogrund\nBiotin (Vitamin H) Bp/Ph Eur\nBisphenol - A\nBisphenol A\nBlack Cleaner\nBlack Phenyl Compound (1:8)\nBleaching Powder\nBleaching Powder\nBleachingpowder\nBonuprint - Printing Inks\nBonutone - Pigment Dispersions\nBonuwax - Polishing, Anti-Sticking, Hot Melt Coating\nBorax\nBorax Bp\nBorax Crystal\nBorax Granular\nBorax Nf\nBoric Acid\nBoric Acid\nBoric Acid Bp\nBoric Acid Ip\nBoric Acid Nf\nBoric Acid Ph. Eur.\nBoricacid\nBrake Fluid Dot-3, Dot-4, Dot-5\nBrij 135\nBromates\nBromelain\nBromide Salts\nBromobenzene\nBronopol Bp\nBronopol Ip Bp\nBulk Solvents\nButyl Acetate\nButyl Acetate\nButyl Acrylate\nButyl Acrylate Monomer (Bam)\nButyl Actrylate Monomer\nCaustic Soda Lye\nCausticflakes\nCausticpotash\nCausticpotashflakes\nCausticsoda\nCausticsodaflakes\nCcs (Crosscarmelose Sodium IP)\nCctg\nCekol / Majol - Carboxymethylcellulose Sodium\nCelite (Hyflosupercel) Ih\nCellactose 80 - Compound Of Lactose &amp; Powdered Cellulose\nCellulose Acetate (Ca)\nCellulose Acetate Butyrate (Cab)\nCellulose Acetate Phthalate (Cap)\nCelphere - Microcrystalline Cellulose Spheres\nCelvol 540\nCeto 1618\nCeto Steryl Alcohol\nCetodet 500(Cm-1000)\nCetodet-500\nCetomacragol 1000 Ih\nCetomacrogol 1000 Ep/Bp\nCetostearyl Alcohol\nCetostearyl Alcohol Ip\nCetrimide Ip\nCetyl Alcohal (Ginol 1698%)\nCetyl Alcohol\nCetyl Alcohol Ip\nCharcol Powder &amp; Granules\nChelating Agents - Edetate Disodium\nChemicals &amp; Intermediates\nChina Clay Powder\nChitason Powder\nChlorhexedine Gloconate 20%\nChlorhexidine Acetate Ip\nChlorhexidine Gluconate\nChlorocresol Ip\nChlorofoam\nChloroform\nChloroform Spirit\nChloroform Spirit\nChlorosulphonic Acid\nChloroxylenol Ip\nChlorpheniramine Maleate\nCholine Bitartrate\nCholine Salicylate\nCholine Salicylate Ip\nChrome Oxide Green\nChromic Chloride Usp\nChromimum Chloride\nDi Cyclohexylamine\nDi Ethanol Amine\nDi Ethyl Ether\nDi Ethyl Malonate\nDi Ethyl Oxalate\nDi Ethyl Sulphate\nDi Ethylene Triamine\nDi Iso Propyl Ether\nDi Iso Propylamine\nDi Methyl Acetamide\nDi Methyl Carbonate\nDi Methyl Formamide\nDi Methyl Malonate\nDi Methyl Sulfoxide\nDi Propylene Glycol\nDi Sodium Hydrogen Citrate\nDi Sodium Phosphate\nDi Sodium Phosphate Dihydrate Grade/Anhydrous/Heptahydrate\nDibasic Calcium Phosphate\nDibasic Calcium Phosphate Anhydrous\nDibasic Calcium Phosphate Dyhydrate\nDicalcium Phosphate\nDichloromethane Bp (Methylene Chloride Ph Eur)\nDiclofenac Diethylamine\nDicyandiaminde\nDicyndiamide (Dcda)\nDiethyl Amine\nDiethylene Tetraamine\nDiethylenetriamine (Deta)\nDiluted Nitroglycerine 10%+Lactose-\nDimethicone (200/350\nDimethicone (200/350) Ih\nDimethicone Oils (20/100/350/1000cst\nDimethyl 5 Sulfoisophthalate Sodium Salt\nDimethyl Acetamide\nDimethyl Amine\nDimethyl Formamide Dmf\nDimethyl Isophthalate\nDimethyl L Tartrate\nDimethyl Sulfoxide\nDimethyl Terephthalate\nDimethyl Urea\nDimono Tri Ethyl Amine\nDimono Tri Ethyl Amine Hcl\nDimono Tri Methyl Amine\nDimono Tri Methyl Amine Hcl\nDioctyl Phthalate\nDiphenhydramine Hcl Ip Bp Usp\nDiphenhydramine Hydrochloride Ip\nDiphenyl Methane\nFood Industry\nFormaldehyde\nFormaldehyde\nFormaldehyde 37%\nFormamide\nFormic Acid\nFormic Acid - 85%\nFormic Acid - 99%\nFormic Acid 85 %\nFormic Acid 85%\nFulvik Acid 20% Solution\nFumaric Acid\nFumaric Acid Ip\nFungal Diastase(1:2000)\nFurfural Alcohol\nFusidic Acid Ip\nGadodiamide Ih Usp\nGadopentetate Dimeglumine Ih\nGalacid Pharma - Lactic Acid\nGalactic\nGalaflow Sl Pharma - Sodium Lactate\nGalaxium Pearls Pharma - Calcium Lactate Pentahydrate\nGamma Benzene Hexachloride Ip\nGelatin\nGelatin All Grades\nGelcarin / Viscarin / Seaspen - Carrageenan\nGentian Violet Usp\nGenu Pectin\nGinkgo Biloba\nGinseng Extract\nGlass Cleaner Compound\nGlibenclamide Bp Ep Ip Usp\nGlucidex - Maltodextrin / Corn Syrup Solids\nGlucose Powder\nGlycerin Ip\nGlycerine\nGlycerine\nGlycerine Ip\nGlycerine Refined\nGlycerine Technical Grade\nGlyceryl Monostearate (Se)\nGlyceryl Monostearate Ip (Se)\nGlycine\nGlycine\nGlycirine Adani Wilmar\nGlycirine Godrej\nGlycolic Acid\nGlycolys - Sodium Starch Glycolate\nGms - Glycerol Monostearate Powder\nGms - Sc/Nsc\nLinear Low Density Polythene (Lldpe)\nLinsed Oil\nLinseed Oil\nLinseed Oil\nLiquid Bromine 995% Min\nLiquid Glucose\nLiquid Paraffin\nLiquid Paraffin Light &amp; Heavy\nLiquor Ammonia\nLitharge\nLithium Bromide Anhydrous 995% Min\nLithium Bromide Solutions 55%\nLithium Carbonate\nLithium Chloride Anhydrous\nLithium Chloride Solutions 50%\nLithium Hydroxide Monohydrate\nLithium Molybdate &amp; Chromate (20% Solution)\nLithophone\nLLP\nL-Lysine Hcl Usp\nLlysine Hydrochloride\nLlysine Mono\nL-Lysine Mono\nLmethyl Folate Calcium\nL-Ornithine L-Aspartate\nLow Density Polythene (Ldpe)\nLron Lll Hydroxide Polymaltose Complex Food/Pharma\nL-Threonine Usp\nLutein (5% Tg/P)\nLuzenac Pharma - Talc\nLuzenac Pharma M - Talc, Micronized\nLycadex Pf/ Biopharma - Dextrose Monohydrate, Low Endotoxin\nLycagel - Plant Based Softgel System\nLycasin - Maltitol Solution\nLycatab C / Lycatab Ct - Partially Pregelatinised Starch\nLycatab C Lm - Partially Pregelatinised Starch, Low Moisture\nLycatab Dsh - Partially Hydrolysed Starch\nLycatab Pgs - Fully Pregelatinised Starch\nLycoat Rs - Hydroxypropyl Pea Starch\nLycopene 10% Cws/S-Tg\nLysine\nLysine Hcl\nLysine Hydrochloride\nLysine Mono\nM\nMafrolite/Cryolite\nMagaldrate\nMagaldrate Ip/Bp/Usp/Ep\nMagensium Oxide\nMagnese Stearate\nMethyl Tertiary Butyl Ether\nMethyl Triglycol Teg Mme\nMethylene Blue Usp\nMethylene Chloride\nMethylene Chloride (Mdc)\nMethylene Di Chloride\nMethylparaben Ip\nMetolose Sh - Hypromellose (Hpmc), High Viscosity\nMetolose Sm - Methyl Cellulose\nMetolose Sr - Hypromellose (Hpmc), Sustained-Release\nMetronidazole Benzoate Ip\nMica Powder\nMicrocelac 100\nMicrocelac 100 - Compound Of Lactose &amp; Mcc\nMicrocrystalline Cellulose (Ph 101) Ip\nMicrocrystalline Cellulose (Ph 102) Ip\nMicrocrystalline Cellulose 101\nMicrocrystalline Cellulose 102\nMicrocrystalline Cellulose 112\nMicrocrystalline Cellulose 200\nMicrocrystalline Cellulose Rc591\nMicrocrystalline Wax (Mcc Wax) Ip\nMilk Of Magnesia\nMilk Of Magnesia (7% To 10%)\nMilk Powder\nMineral Chelates\nMinoxidil Ip\nMolecular Sieves - 3a 4a 13x\nMono Ammonium Phosphate\nMono Basic Calcium Phosphate\nMono Calcium Phosphate\nMono Chloro Benzene\nMono Di Iso Propyl Amine\nMono Di Tri N Butyl Amine\nMono Ethanol Amine\nMono Ethanolamine\nMono Ethylene Glycol\nMono Iso Propylamine\nMono Potassium Phosphate\nMono Sodium Phospate\nMono Sodium Phosphate Anhydrous/Di-Hydrate/ Ip/Bp/Usp\nMonoammonium Phosphate\nMonochloro Benzene Mcb\nMonoglyme\nMonopotassium Phosphate\nMonosodium Phosphate\nMonosodiumglutamate\nMonosoduimglutamate\nMorpholine\nMosstanol\nPoly Aluminium Chloride Liquid 9%, 14%, 17%\nPoly Lysine\nPoly Vinly Chloride (Pvc) Resin\nPoly Vinyl Alcohol\nPolyaluminium Chloride\nPolyamine Mix\nPolyelectrolyte\nPolyethylene Glycol\nPolyethylene Glycol (Peg)\nPolyethylene Glycol 400 Ip\nPolyethylene Glycol 4000 Ip\nPolyethylene Terephthalate (Pet) Resin\nPolymers\nPolymyxin B Sulfate Usp\nPolypropylene (Pp)\nPolyquaternium -10\nPolysorb - Sorbitol Sorbitan Solution\nPolysorbate 20 Food Grade/Bp/Usp\nPolysorbate 20 Ip\nPolysorbate 40 Food Grade\nPolysorbate 60 Food Grade\nPolysorbate 80 Food Grade/Bp/Usp\nPolysorbate 80 Ip\nPolysorbates\nPolyvinyl Alcohol (Pva)\nPolyvinylpyrrolidone K30\nPotasium Hydroxide Pellets\nPotassium Acetate\nPotassium Acetate Bp\nPotassium Acetate Bp Dialysis\nPotassium Acetate Bp Hemodialysis\nPotassium Bitartrate Usp\nPotassium Bromate\nPotassium Bromide\nPotassium Bromide Bp\nPotassium Bromide Ph. Eur.\nPotassium Carbonate\nPotassium Carbonate Usp\nPotassium Chloride\nPotassium Chloride All Grades\nPotassium Chloride Bp\nPotassium Chloride Bp Hemodialysis\nPotassium Chloride Bp Injectable\nPotassium Chloride Ip\nPotassium Chloride Ip Bp Usp\nPotassium Chloride Ip Dialysis\nPotassium Chloride Ip/Bp/Usp\nPotassium Chloride Ip/Bp/Usp/Food\nPotassium Chloride Ph. Eur.\nPotassium Chloride Usp\nS\nSaccharin\nSaccharin - Soluble &amp; Insoluble\nSaccharin Sodium\nSaccharine Ip\nSalcare 60 (Sc60)\nSalcare 91 (Sc91)\nSalicyclic Acid\nSalicylic Acid\nSalicylic Acid\nSalicylic Acid Ip\nSalicylic Acid Ip\nScoralite Dc - Directly Compressible Calcium Carbonate\nScoralite Ll - Calcium Carbonate, Low Lead\nSebacic Acid\nSelenium\nSelenium Dioxide Ip\nSelenomethionine\nSensogel\nSertaconazole Nitrate Ip\nShampoo &amp; Sented Phenyl\nShea Butter\nShellac (Bleach &amp; Flakes)\nShin-Etsu Aqoat - Hypromellose Acetate Succinate\nSicovit - Iron (Ferric) Oxide\nSilica Powder\nSilicon De Former\nSilicon De Former\nSilicone Softner\nSilver Nitrate Ar/Lr Grade\nSilver Nitrate Ip\nSilver Sulphadiazine Ip/Usp\nSilymarin 70% To 80%\nSimethicone 100 %\nSimethicone 100 %\nSimethicone 30 %\nSimethicone Emulsion Usp (30%)\nSimethicone Emulsion Usp 30%\nSimethicone Ip (100%) / Powder 50%\nSimethicone Powder\nSimithicone 100 % Usp\nSles\nSles\nSls\nSls\nSLSIP(Sodium Lauryl Sulphate)-\nSmartex - Compound Of Mannitol, L-Hpc &amp; Polyvinyl Alcohol\nSod Methyl Paraben\nSod Propyl Paraben\nSoda Ash\nSodium Monofluoro Phosphate\nSodium Naphthalene\nSodium Nitrate\nSodium Nitrate\nSodium Nitrite\nSodium Nitrite Ph. Eur.\nSodium Nitrite Usp\nSodium Pca\nSodium Percarbonate Coated Granules Tablets\nSodium Perchlorate Lr\nSodium Phosphate Dibasic 12h20 Usp\nSodium Phosphate Dibasic 12h2o Bp\nSodium Phosphate Dibasic 12h2o Ip\nSodium Phosphate Dibasic 7h2o Usp\nSodium Phosphate Dibasic Anhydrous Bp\nSodium Phosphate Dibasic Anhydrous Usp\nSodium Phosphate Dibasic Dihydrate Bp\nSodium Phosphate Dibasic Dihydrate Usp\nSodium Phosphate Dibasic Heptahydrate\nSodium Phosphate Monobasic Monohydrate Bp\nSodium Picosulphate\nSodium Polyacrylate 44% Solution\nSodium Propionate\nSodium Propy Paraben\nSodium Propylparaben Ip\nSodium Pyruvate\nSodium Saccharine Ip !! Bp !! Usp !!\nSodium Saccharine Ip (Blue Circle)\nSodium Saccharine IP/Usp-\nSodium Sacchrine Crystal\nSodium Salinate\nSodium Selenate Pentahydrate\nSodium Selenite\nSodium Selenite Pentahydrate\nSodium Silicate\nSodium Starch Glycolate (Potato)\nSodium Starch Glycolate (Ssg)\nSodium Starch Glycolate (Ssg) IP\nSodium Starch Glycolate (Ssg) Ip\nSodium Starch Glycolate (Ssg) Usp\nSodium Starch Glycolate Bp/Nf (Potato Base)\nSodium Starch Glycolate Ip\nSodium Starch Glycolate(Maize\nSodium Stearyl Fumarate\nSodium Succinate Anhydrous, Low Endotoxin\nSodium Succinate Hexahydrate, Low Endotoxin\nSodium Sulphate\nSodium Sulphate\nSodium Sulphate 10h2o Bp\nSodium Sulphate Anhydrous\nTricalcium Phosphate Ip\nTri-Calcium Phosphate Ip\nTrichloro Ethylene\nTricholine Citrate\nTricholine Citrate Ip\nTriclosan\nTriethanolamine 85%\nTriethanolamine 85% &amp; 99%\nTriethanolamine Bp\nTriethyl Amine\nTriethyl Citrate (Tec)\nTriethylbenzylammonium Chloride(Tebac)\nTriethylene Diamine\nTriethylene Tetraamine\nTriethylene Tetramine\nTrimethyl Ortho Valerate\nTrimethyl Orthobutyrate\nTrimethyl Orthopropionate\nTrimethyl Orthovalerate\nTrimethyl Sulphoxonium Sulphate\nTrimetilic Anhydrous\nTri-N-Butylamine\nTriphenyl Phosphite\nTriphosgene (Bis Trichloromethyl Carbonate)\nTrisodium Phosphate\nTri-Tab - Tricalcium Phosphate Anhydrous, Granular\nTri-Tab Pvp - Compound Of Tricalcium Phosphate &amp; Povidone\nTrypsin\nTulsion-344\nTween 80\nTween 80 Powder\nU\nUltramarineblue\nUrea Bp\nUrea Formaldehyde\nUrea Ip\nUrea Usp\nUrea Usp Injectable\nUv Absorb Heb\nUvinal A Plus\nV\nVaccum Salt &amp; Pure Salt\nValporic Acid Bp Usp\n"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView27" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

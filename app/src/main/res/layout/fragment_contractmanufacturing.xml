@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    tools:context=".fragments.ContractmanufacturingFragment">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/contractmanufacturing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manufacturing Facility"
+                android:textAlignment="viewStart"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Beside pcd franchisee we also provide fully integrated contract manufacturing and development solutions to our customers with inputs about early manufacturing, commercial manufacturing, and packaging. we design product according to client specifications . done on proper documentation and approvals. to ensure the production of high-quality drugs, our unit is equipped with quality control and quality assurance system"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contract manufacturing"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="MaSter Healthcare is an innovative sourcing &amp; distribution company involved in both exclusive representation and global supply of a wide range of quality pharmaceutical ingredients and finished products.\nMaSter Healthcare is a quality focused concern, producing wide range of formulations for all age groups. MaSter Healthcare established seven year ago, today it has it’s presence in more than Twenty Indian States and it has confidence to expand its marketing network thought in India in near future. MaSter Healthcare is one of the company having associated with all the manufacturing plants / sections as per the current “Good manufacturing Practices” GMP.\n1. Liquids\n2. Β Lactum Tablets and Capsules\n3. Non β Lactum Tablets and Capsules\n4. Ointments\n5. Β Lactum Powders\n6. Non β Lactum Powders\n7. Injection\n8. FSSAI (Food products Available)\n9. Herbals and Ayurvedics preparations\nHaving quality conscious’s, MaSter Healthcare manufacturing all the products in its associated plants in the state of the art factory fallowing strict and exacting quality measure at all the stages of production processes, right from the materials to the finished product.\nMaSter Healthcare vision is to provide the best support to the medical fraternity in the treatment and recovery of the patient in a speedy and economical way.\nWe proudly say…\nThe trust never failed"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Custom labeling solutions for your business"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="MaSter Healthcare provides third party manufacturing facility for reputed pharmaceutical players. We try to make the outsourcing activity easy &amp; flexible for our partners in pharmaceutical industry, by performing following activities that include:-\n• Contract manufacturing of all pharmaceuticals products.\n• Minimum Batch Size facilities available\n• Depending on your needs, our services include purchasing of raw materials, production, packaging and quality control.\n• Through this flexible approach, we are able to integrate perfectly into your supply chain.\n• Looking forward to partnering for a mutually beneficial working relationship and a strategic alliance."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Economic Value of Strategic Alliance"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="• Reliable supply of quality products – Validated and approved processes.\n• Minimize investments in capital-intensive facilities.\n• Relief from the hassles of manufacturing &amp; improve net worth.\n• Divert Resources to focus on their core competencies – marketing.\n• All products are analyzed and released by our quality control staff before shipment.\n• Monitor and optimize the timeliness of our delivery."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The aim of the master healthcare is"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="To achieve the satisfaction of our Customers in terms of:\n• Required quality of our products.\n• Timing of the orders.\n• Correct execution of our orders concerning: the conditions of the delivery speed of the execution of the contract.\n• To improve the level of service provided through constant communication with the Suppliers and providing all information as for our Customer’s requirements.\n• To make the company more flexible as for our Customer’s expectations, avoiding defects and errors – not correcting them post-factum. \nTo improve the products portfolio and marketing approach by constant communication with the Marketing Team, Pharma Distributors, Pharma Chemists, Doctors and our entire Customer’s. Our purpose is grounded in our commitment to fund programs that provide public benefit, advance medical care and improve patient outcomes. Our belief is that all people deserve to live healthy lives. This drives our desire to provide access to medicines that are safe, effective, and affordable."
+                android:textSize="17sp"
+                app:layout_constraintTop_toBottomOf="@id/textView9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

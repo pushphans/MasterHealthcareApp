@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203374168402",
+    "project_id": "masterapp-144c2",
+    "storage_bucket": "masterapp-144c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203374168402:android:824cc6ea82d8dd73e7528b",
+        "android_client_info": {
+          "package_name": "com.example.masterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl9UtMBoTZOqQJFBQ4LV1fVUFbFD8Kr50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

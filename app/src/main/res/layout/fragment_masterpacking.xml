@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MasterpackingFragment"
+    android:background="@drawable/backgroundapp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/cardColor3"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Master Packing"
+            android:fontFamily="@font/roboto_slab"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPvc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingStart="10dp"
+                android:text="PVC"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivPvc"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pvc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvPvc" />
+
+            <TextView
+                android:id="@+id/pvcDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Pakaging"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPvc" />
+
+            <View
+                android:id="@+id/viewPvc"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pvcDescription" />
+
+            <TextView
+                android:id="@+id/tvAlu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Alu"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPvc" />
+
+            <ImageView
+                android:id="@+id/ivAlu"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/alu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvAlu" />
+
+            <TextView
+                android:id="@+id/aluDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivAlu" />
+
+            <View
+                android:id="@+id/viewAlu"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/aluDescription" />
+
+            <TextView
+                android:id="@+id/tvPolyFoil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Poly Foil"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewAlu" />
+
+            <ImageView
+                android:id="@+id/ivPolyFoil"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/polyfoil"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPolyFoil" />
+
+            <TextView
+                android:id="@+id/polyfoilDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPolyFoil" />
+
+
+            <View
+                android:id="@+id/viewPolyFoil"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/polyfoilDescription" />
+
+            <TextView
+                android:id="@+id/tvPetBottle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="PET Bottles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPolyFoil" />
+
+
+            <ImageView
+                android:id="@+id/ivPetBottle"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/petbottoles"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPetBottle" />
+
+            <TextView
+                android:id="@+id/petBottleDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPetBottle" />
+
+            <View
+                android:id="@+id/viewPetBottle"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/petBottleDescription"/>
+
+            <TextView
+                android:id="@+id/tvGlassBottle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Glass Bottles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPetBottle" />
+
+            <ImageView
+                android:id="@+id/ivGlassBottle"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/glassbottle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvGlassBottle" />
+
+            <TextView
+                android:id="@+id/glassBottleDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivGlassBottle" />
+
+            <View
+                android:id="@+id/viewGlassBottle"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/glassBottleDescription" />
+
+
+            <TextView
+                android:id="@+id/tvCaps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Caps"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewGlassBottle" />
+
+            <ImageView
+                android:id="@+id/ivCaps"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/caps"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCaps" />
+
+            <TextView
+                android:id="@+id/capsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivCaps" />
+
+            <View
+                android:id="@+id/viewCaps"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/capsDescription"/>
+
+            <TextView
+                android:id="@+id/tvInnerPlug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Inner Plugs"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewCaps" />
+
+            <ImageView
+                android:id="@+id/ivInnerPlug"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/innerplug"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvInnerPlug"/>
+
+            <TextView
+                android:id="@+id/innerPlugDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivInnerPlug" />
+
+            <View
+                android:id="@+id/viewInnerPlug"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/innerPlugDescription" />
+
+
+            <TextView
+                android:id="@+id/tvFlipOffs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Flip Offs"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewInnerPlug"/>
+
+            <ImageView
+                android:id="@+id/ivFlipOffs"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/flipoff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvFlipOffs" />
+
+            <TextView
+                android:id="@+id/flipOffsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivFlipOffs" />
+
+            <View
+                android:id="@+id/viewFlipOffs"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/flipOffsDescription"/>
+
+            <TextView
+                android:id="@+id/tvInjectableVial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Injectable Vial"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewFlipOffs" />
+
+            <ImageView
+                android:id="@+id/ivInjectableVial"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/injectablevial"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvInjectableVial" />
+
+            <TextView
+                android:id="@+id/injectableVialDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivInjectableVial" />
+
+            <View
+                android:id="@+id/viewInjectableVial"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/injectableVialDescription"/>
+
+            <TextView
+                android:id="@+id/tvppCaps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="PP Caps"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewInjectableVial" />
+
+            <ImageView
+                android:id="@+id/ivppCaps"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ppcap"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvppCaps" />
+
+            <TextView
+                android:id="@+id/ppCapsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivppCaps" />
+
+            <View
+                android:id="@+id/viewppCaps"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ppCapsDescription" />
+
+
+
+            <TextView
+            android:id="@+id/tvRubberStopper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Rubber Stopper"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewppCaps"/>
+
+            <ImageView
+                android:id="@+id/ivRubberStopper"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/rubberstopper"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvRubberStopper" />
+
+            <TextView
+                android:id="@+id/rubberStopperDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivRubberStopper"/>
+
+            <View
+                android:id="@+id/viewRubberStopper"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rubberStopperDescription"/>
+
+            <TextView
+                android:id="@+id/tvInjectableTray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Injectable Tray"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewRubberStopper" />
+
+            <ImageView
+                android:id="@+id/ivInjectableTray"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/injectabletray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvInjectableTray"/>
+
+            <TextView
+                android:id="@+id/injectableTrayDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivInjectableTray"/>
+
+            <View
+                android:id="@+id/viewInjectableTray"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/injectableTrayDescription"/>
+
+            <TextView
+                android:id="@+id/tvPump"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Pump"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewInjectableTray"/>
+
+            <ImageView
+                android:id="@+id/ivPump"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/pump"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPump" />
+
+            <TextView
+                android:id="@+id/pumpDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPump" />
+
+            <View
+                android:id="@+id/viewPump"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pumpDescription"/>
+
+
+            <TextView
+                android:id="@+id/tvHDPEBottles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="HDPE Bottles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPump" />
+
+            <ImageView
+                android:id="@+id/ivHDPEBottles"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/hepdbottle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvHDPEBottles"/>
+
+            <TextView
+                android:id="@+id/HDPEDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivHDPEBottles"/>
+
+            <View
+                android:id="@+id/viewHDPE"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/HDPEDescription"/>
+
+            <TextView
+                android:id="@+id/tvPolyBags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Poly Bags"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewHDPE"/>
+
+            <ImageView
+                android:id="@+id/ivPolyBags"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/polybags"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPolyBags"/>
+
+            <TextView
+                android:id="@+id/polyBagsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPolyBags"/>
+
+            <View
+                android:id="@+id/viewPolyBags"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/polyBagsDescription"/>
+
+            <TextView
+                android:id="@+id/tvShrinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Shrinks"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPolyBags"/>
+
+            <ImageView
+                android:id="@+id/ivShrinks"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/shrinks"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvShrinks"/>
+
+            <TextView
+                android:id="@+id/shrinksDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_slab"
+                android:text="All Sizes Available | Premium Quality for Pharma Packing"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivShrinks"/>
+
+            <View
+                android:id="@+id/viewShrinks"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_margin="10dp"
+                android:background="@color/cardColor3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/shrinksDescription" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

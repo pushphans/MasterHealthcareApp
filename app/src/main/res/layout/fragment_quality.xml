@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    tools:context=".fragments.QualityFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        app:cardBackgroundColor="@color/cardColor3"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quality"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_slab"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@color/black"
+        android:text="Our goal is to provide innovative solutions that allow you to control and improve the quality of the finished products. All our employees are committed to help you and the client achieve a final product of consistent high quality.\n\nMaster healthcare committed to supply of products of consistently high standard that meet customers’ needs and fulfil their expectations. The highest priority is placed on the integrity of our products, their safe manufacture and our adherence to environmental and other international regulations."
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.masterapp.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_userloginFragment"
+            app:destination="@id/userloginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_adminloginFragment"
+            app:destination="@id/adminloginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/partymanufacturingFragment"
+        android:name="com.example.masterapp.fragments.PartymanufacturingFragment"
+        android:label="fragment_partymanufacturing"
+        tools:layout="@layout/fragment_partymanufacturing" />
+    <fragment
+        android:id="@+id/contractmanufacturingFragment"
+        android:name="com.example.masterapp.fragments.ContractmanufacturingFragment"
+        android:label="fragment_contractmanufacturing"
+        tools:layout="@layout/fragment_contractmanufacturing" />
+    <fragment
+        android:id="@+id/aboutusFragment"
+        android:name="com.example.masterapp.fragments.AboutusFragment"
+        android:label="fragment_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/qualityFragment"
+        android:name="com.example.masterapp.fragments.QualityFragment"
+        android:label="fragment_quality"
+        tools:layout="@layout/fragment_quality" />
+    <fragment
+        android:id="@+id/contactusFragment"
+        android:name="com.example.masterapp.fragments.ContactusFragment"
+        android:label="fragment_contactus"
+        tools:layout="@layout/fragment_contactus" >
+        <action
+            android:id="@+id/action_contactusFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.masterapp.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/careerFragment"
+        android:name="com.example.masterapp.fragments.CareerFragment"
+        android:label="fragment_career"
+        tools:layout="@layout/fragment_career" />
+    <fragment
+        android:id="@+id/userloginFragment"
+        android:name="com.example.masterapp.fragments.UserloginFragment"
+        android:label="fragment_userlogin"
+        tools:layout="@layout/fragment_userlogin" >
+        <action
+            android:id="@+id/action_userloginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_userloginFragment_to_productTypeSelectionFragment"
+            app:destination="@id/productTypeSelectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loggedinuserFragment"
+        android:name="com.example.masterapp.fragments.LoggedinuserFragment"
+        android:label="fragment_loggedinuser"
+        tools:layout="@layout/fragment_loggedinuser" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.masterapp.fragments.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" />
+    <fragment
+        android:id="@+id/masterhealthcareFragment"
+        android:name="com.example.masterapp.fragments.MasterhealthcareFragment"
+        android:label="fragment_masterhealthcare"
+        tools:layout="@layout/fragment_masterhealthcare" />
+    <fragment
+        android:id="@+id/masterpackingFragment"
+        android:name="com.example.masterapp.fragments.MasterpackingFragment"
+        android:label="fragment_masterpacking"
+        tools:layout="@layout/fragment_masterpacking" />
+    <fragment
+        android:id="@+id/adminloginFragment"
+        android:name="com.example.masterapp.fragments.AdminloginFragment"
+        android:label="fragment_adminlogin"
+        tools:layout="@layout/fragment_adminlogin" >
+        <action
+            android:id="@+id/action_adminloginFragment_to_loggedinAdminFragment"
+            app:destination="@id/loggedinAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loggedinAdminFragment"
+        android:name="com.example.masterapp.fragments.LoggedinAdminFragment"
+        android:label="fragment_loggedin_admin"
+        tools:layout="@layout/fragment_loggedin_admin" />
+    <fragment
+        android:id="@+id/contactSalesFragment"
+        android:name="com.example.masterapp.fragments.ContactSalesFragment"
+        android:label="fragment_contact_sales"
+        tools:layout="@layout/fragment_contact_sales" />
+    <fragment
+        android:id="@+id/productTypeSelectionFragment"
+        android:name="com.example.masterapp.fragments.ProductTypeSelectionFragment"
+        android:label="fragment_product_type_selection"
+        tools:layout="@layout/fragment_product_type_selection" />
+    <fragment
+        android:id="@+id/allProductsListFragment"
+        android:name="com.example.masterapp.fragments.AllProductsListFragment"
+        android:label="fragment_all_products_list"
+        tools:layout="@layout/fragment_all_products_list" />
+</navigation>

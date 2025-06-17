@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    tools:context=".fragments.PartymanufacturingFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manufacturingimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Manufacturing Facility"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Beside pcd franchisee we also provide fully integrated contract manufacturing and development solutions to our customers with inputs about early manufacturing, commercial manufacturing, and packaging. we design product according to client specifications . done on proper documentation and approvals. to ensure the production of high-quality drugs, our unit is equipped with quality control and quality assurance system"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="4dp"
+                android:text="3rd party manufacturing"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="Master Healthcare is the third-party pharma manufacturer in India and can match the satisfaction level of many associates with their excellent quality and services. They deliver medicines at affordable prices and hold the utmost place in the industry as the top third-party pharma manufacturing company known in the domestic market."
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/black"
+                android:text="• Tablets\n• Capsules\n• Oral Liquids\n• Oral suspensions\n• Oral syrups\n• Oral Dry Syrups\n• Injectable\n• Soft Gelatin capsules\n• Hard Gelatin Capsules\n• External Preparation\n• External Oils\n• Dental Products\n• Soaps\n• Ointments\n• Nutraceuticals Products\n• Shampoo\n• Eye Drops\n• Ear Drops\n• Oral Sachets\n• Oral Powders\n• External Powder\n• Veterinary Products\n• Protein Powder\n• Dental Paste\n• Gum Paints\n• Pharma Creams\n• Cosmetics Products\n• Hand Wash\n• Face Wash\n• Foot care cream"
+                android:textSize="17sp"
+                android:layout_marginStart="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
