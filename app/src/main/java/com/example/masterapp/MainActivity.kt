@@ -87,22 +87,6 @@ class MainActivity : AppCompatActivity() {
                     findNavController(R.id.fragmentContainerView).navigate(R.id.masterpackingFragment)
                 }
 
-                R.id.masterbuildcon ->{
-                    findNavController(R.id.fragmentContainerView).navigate(R.id.homeFragment)
-                }
-
-                R.id.nerimasterantibiotics ->{
-                    findNavController(R.id.fragmentContainerView).navigate(R.id.homeFragment)
-                }
-
-                R.id.nerimasterpharma ->{
-                    findNavController(R.id.fragmentContainerView).navigate(R.id.homeFragment)
-                }
-
-                R.id.masterservices ->{
-                    findNavController(R.id.fragmentContainerView).navigate(R.id.homeFragment)
-                }
-
                 R.id.manufacturing ->{
                     findNavController(R.id.fragmentContainerView).navigate(R.id.contractmanufacturingFragment)
                 }
