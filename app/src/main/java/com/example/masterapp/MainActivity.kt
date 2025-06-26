@@ -2,9 +2,7 @@ package com.example.masterapp
 
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toolbar
 import androidx.activity.addCallback
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -12,12 +10,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
 import com.example.masterapp.databinding.ActivityMainBinding
-import com.example.masterapp.fragments.HomeFragment
 import com.example.masterapp.repository.AuthRepository
-import com.example.masterapp.retrofit.ApiService
 import com.example.masterapp.retrofit.RetroRepository
 import com.example.masterapp.retrofit.RetroViewModel
 import com.example.masterapp.retrofit.RetroVmFactory
